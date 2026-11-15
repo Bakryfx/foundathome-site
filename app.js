@@ -19,25 +19,40 @@
     return n;
   }
 
+  function proofText(p) {
+    return String(p.social_proof || "").trim().replace(/\d[\d,]{3,}/g, function (m) {
+      var n = parseInt(m.replace(/,/g, ""), 10);
+      if (n >= 1e6) return (+(n / 1e6).toFixed(n >= 1e7 ? 0 : 1)) + "M";
+      if (n >= 1e3) return (+(n / 1e3).toFixed(n >= 1e4 ? 0 : 1)) + "K";
+      return String(n);
+    });
+  }
+
   function card(p, i) {
     var c = cats(p).filter(function (k) { return LABELS[k]; });
     var li = el("li", "card");
     li.id = p.id;
     li.setAttribute("data-cat", c.join(" "));
+    var href = "p/" + (p.slug || p.id) + "/";
+    var imgLink = el("a", "card-imglink");
+    imgLink.href = href; imgLink.tabIndex = -1; imgLink.setAttribute("aria-hidden", "true");
     var img = el("img", "card-img");
-    img.src = p.image; img.alt = p.image_alt || p.name;
+    img.src = p.image; img.alt = "";
     img.width = 400; img.height = 500; img.decoding = "async";
     if (i > 1) img.loading = "lazy";
+    imgLink.appendChild(img);
+    var sp = proofText(p);
+    if (sp) imgLink.appendChild(el("span", "proof-badge", "🔥 " + sp));
     var body = el("div", "card-body");
     body.appendChild(el("p", "card-cat", c.map(function (k) { return LABELS[k]; }).join(" · ")));
-    body.appendChild(el("h3", "card-name", p.name));
-    body.appendChild(el("p", "card-note", p.note));
-    var a = el("a", "btn", "Check it on Amazon");
-    a.href = p.link; a.rel = "sponsored nofollow noopener"; a.target = "_blank";
-    a.appendChild(el("span", "sr-only", " (opens Amazon in a new tab)"));
+    var h = el("h3", "card-name");
+    var na = el("a", null, p.name); na.href = href; h.appendChild(na);
+    body.appendChild(h);
+    body.appendChild(el("p", "card-note", p.short_note || p.note));
+    var a = el("a", "btn", "See the find");
+    a.href = href;
     body.appendChild(a);
-    body.appendChild(el("p", "card-ad", "Affiliate link"));
-    li.appendChild(img); li.appendChild(body);
+    li.appendChild(imgLink); li.appendChild(body);
     return li;
   }
 
@@ -66,11 +81,31 @@
     if (empty) empty.hidden = shown > 0 || !$$("#grid .card").length;
   }
 
+  function hashFilter() {
+    var m = /^#filter-([a-z]+)$/.exec(location.hash);
+    if (m && $(".chip[data-filter='" + m[1] + "']")) applyFilter(m[1]);
+  }
+
+  // Product pages: YouTube Shorts load only after the visitor presses play.
+  document.addEventListener("click", function (e) {
+    var yt = e.target.closest && e.target.closest(".hero-video[data-yt] .yt-play");
+    if (!yt) return;
+    e.preventDefault();
+    var box = yt.parentNode, f = document.createElement("iframe");
+    f.src = "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(box.getAttribute("data-yt")) + "?autoplay=1&rel=0&playsinline=1";
+    f.title = "Short video"; f.allow = "autoplay; encrypted-media; picture-in-picture"; f.allowFullscreen = true;
+    f.className = "yt-frame";
+    box.textContent = ""; box.appendChild(f);
+  });
+
   document.addEventListener("click", function (e) {
     var chip = e.target.closest && e.target.closest(".chip");
     if (chip) { applyFilter(chip.getAttribute("data-filter")); return; }
     if (e.target.closest && e.target.closest("[data-show-all]")) { e.preventDefault(); applyFilter("all"); }
   });
+
+  window.addEventListener("hashchange", hashFilter);
+  hashFilter();
 
   // If products.json has changed since build.py last ran, show the JSON version.
   if (window.fetch && location.protocol !== "file:") {
@@ -88,6 +123,7 @@
         if (list.map(function (p) { return p.id; }).join(",") !== now) render(list);
         var active = $(".chip[aria-pressed='true']");
         applyFilter(active ? active.getAttribute("data-filter") : "all");
+        hashFilter();
       })
       .catch(function () { /* keep the pre-rendered list */ });
   }
