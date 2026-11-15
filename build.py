@@ -37,7 +37,7 @@ SOCIALS = [  # (label, url) - FB is a placeholder until the Page URL is confirme
     ("Instagram", "https://www.instagram.com/found.athome/"),
     ("YouTube", "https://www.youtube.com/@foundathome"),
     ("Pinterest", "https://www.pinterest.com/foundathomefinds/"),
-    ("Facebook", "https://www.facebook.com/foundathome"),  # PLACEHOLDER: replace with the real Page URL
+    ("Facebook", "https://www.facebook.com/profile.php?id=61596432606815"),  # PLACEHOLDER: replace with the real Page URL
 ]
 
 ALLOWED_LINK_HOSTS = {"amzn.to", "www.amazon.com", "amazon.com"}

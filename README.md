@@ -53,7 +53,7 @@ Static site for **foundathome.qimamai.tech** (GitHub Pages). No framework, no bu
 
 ## Before going live
 
-- **Facebook link is a placeholder** (`https://www.facebook.com/foundathome`). Replace it with the real Page URL in `build.py` (SOCIALS), `index.html` and `about.html` (footer), then run `python build.py`.
+- **Facebook link is a placeholder** (`https://www.facebook.com/profile.php?id=61596432606815`). Replace it with the real Page URL in `build.py` (SOCIALS), `index.html` and `about.html` (footer), then run `python build.py`.
 - Add `foundathome.qimamai.tech` to the Associates account's website list, and use the site tracking ID in every link.
 - DNS: a CNAME record `foundathome` -> `<github-username>.github.io` at Hostinger; then in the repo's Settings > Pages, set the custom domain and tick "Enforce HTTPS".
 
