@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://foundathome.qimamai.tech/sitemap.xml
