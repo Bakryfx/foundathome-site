@@ -57,7 +57,7 @@ Static site for **foundathome.qimamai.tech** (GitHub Pages). No framework, no bu
 | `who_its_for` | yes | one or two sentences |
 | `faq` | yes | list of 2-4 `{"q","a"}` pairs (also written as FAQPage JSON-LD) |
 | `video` | no | path to OUR short `.mp4` (max 8 MB, lazy-loaded, poster = `image`) or an 11-character YouTube Shorts ID (the player loads only after a tap, so no third-party request before that) |
-| `social_proof` | no | non-Amazon data only, must say TikTok, e.g. `"3.2M views on TikTok"` (raw numbers like `3200000` become `3.2M`). Shown as a badge on the hub card and under the page H1; hidden when empty. |
+| `social_proof` | no | non-Amazon data only, must say TikTok or Instagram, e.g. `"3.2M views on TikTok"` (use the views of the exact clip our video is cut from) (raw numbers like `3200000` become `3.2M`). Shown as a badge on the hub card and under the page H1; hidden when empty. |
 
 **Hard rule (Amazon Associates Operating Agreement):** never show Amazon prices, star ratings, review counts, customer review text or "bought in past month" counts. `build.py` rejects `$`, price, rating, stars, reviews, bought, sold, "% off", deal, sale, discount, best seller, and "I/we tested" in every text field, bullets and FAQ included, and refuses to build.
 

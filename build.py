@@ -166,8 +166,8 @@ def check(products: list[dict]) -> list[str]:
         sp = str(p.get("social_proof") or "")
         if sp and re.search(r"amazon", sp, re.I):
             errors.append(f"{where}: social_proof must be non-Amazon data only (e.g. TikTok views)")
-        if sp and not re.search(r"tiktok", sp, re.I):
-            errors.append(f"{where}: social_proof must say where the number is from, e.g. '3.2M views on TikTok'")
+        if sp and not re.search(r"tiktok|instagram", sp, re.I):
+            errors.append(f"{where}: social_proof must say where the number is from, e.g. '3.2M views on TikTok' or '190M views on Instagram'")
         note = str(p.get("short_note", ""))
         if len(note) > 220:
             errors.append(f"{where}: short_note is {len(note)} characters; keep it to 1-2 short sentences (max 220)")
@@ -302,8 +302,11 @@ def media(p: dict) -> str:
     if not vid:
         return f'<img class="hero-img" src="{img}" alt="{alt}" width="720" height="900" fetchpriority="high" decoding="async">'
     if vid.endswith(".mp4"):
+        # 9:16 cover frame from our reel (img/products/<name>-poster.webp) if present, else the 4:5 image
+        pst = vid[:-4] + "-poster.webp"
+        poster = f'/{esc(pst)}' if (ROOT / pst).is_file() else img
         return (
-            f'<video class="hero-img" controls playsinline preload="none" poster="{img}" width="720" height="900">'
+            f'<video class="hero-img hero-vid" controls playsinline preload="none" poster="{poster}" width="720" height="1280">'
             f'<source src="/{esc(vid)}" type="video/mp4">'
             f'<img src="{img}" alt="{alt}"></video>'
         )

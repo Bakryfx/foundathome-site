@@ -1,3 +1,170 @@
 {
-  "products": []
+  "products": [
+    {
+      "id": "p005-chicken-shredder",
+      "slug": "chicken-shredder",
+      "name": "Twist chicken shredder with clear lid",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Put cooked chicken in, lid on, twist. The clear lid lets you watch it shred. Handy for tacos, salads and holiday leftovers.",
+      "image": "img/products/p005-chicken-shredder.webp",
+      "image_alt": "Bowl of freshly shredded chicken inside a twist shredder",
+      "link": "https://www.amazon.com/dp/B0CGRGRXPY?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "Shred chicken without two forks: just twist",
+      "intro": "This is a bowl with plastic teeth inside and a clear lid on top. You put in cooked meat, close it and twist, and you can see through the lid when it's done. It's a small thing that makes tacos, enchiladas and leftover turkey a lot less messy.",
+      "why_we_like": [
+        "Twist to shred instead of pulling meat apart with two forks",
+        "Clear lid so you can see when it's shredded enough",
+        "Anti-slip base and an ergonomic handle",
+        "Dishwasher safe and BPA free, with a cleaning brush included",
+        "Works for chicken, pork and beef"
+      ],
+      "good_to_know": [
+        "Use cooked meat only. The maker says raw meat can damage the spikes.",
+        "Cut bigger pieces smaller first and shred in a few batches.",
+        "Comes in many colours; the one in our video may look different from the default."
+      ],
+      "who_its_for": "Anyone who meal-preps shredded chicken or wants an easy way through Thanksgiving leftovers.",
+      "faq": [
+        {
+          "q": "Can I shred raw chicken in it?",
+          "a": "No. The maker says to cook the meat first; raw meat can damage the spikes."
+        },
+        {
+          "q": "Is it dishwasher safe?",
+          "a": "Yes, the listing says it's dishwasher safe, and a cleaning brush comes with it."
+        },
+        {
+          "q": "Does it work for other meat?",
+          "a": "The listing mentions chicken, pork and beef, for things like tacos and pulled pork."
+        }
+      ],
+      "social_proof": "190M views on Instagram",
+      "video": "img/products/p005-chicken-shredder.mp4"
+    },
+    {
+      "id": "p006-ninja-prepi",
+      "slug": "ninja-prepi",
+      "name": "Ninja PREPi 5-in-1 Prep & Store System (PN301)",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Slices, shreds, crinkle-cuts, chops and purees straight into a bowl, then the same bowl gets a lid and goes in the fridge.",
+      "image": "img/products/p006-ninja-prepi.webp",
+      "image_alt": "Ninja PREPi base on a counter with a bowl of fresh guacamole",
+      "link": "https://www.amazon.com/dp/B0HFT8YPHR?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "Ninja PREPi: prep it and store it in the same bowl",
+      "intro": "The PREPi is a compact 500-watt base with a feed chute and discs that slice, shred and crinkle-cut right into the bowl underneath. Swap in the blade and it chops or purees. When you're done, snap a lid on the bowl and put it straight in the fridge.",
+      "why_we_like": [
+        "Five jobs in one: crinkle cut, chop, puree, slice and shred",
+        "Food goes straight into the bowl, so there's less to wash",
+        "Two bowls (5-cup and 7-cup), each with its own storage lid",
+        "One reversible disc: slice on one side, shred on the other",
+        "Compact base that doesn't take over the counter"
+      ],
+      "good_to_know": [
+        "It's a prep machine, not a blender for drinks.",
+        "Check the parts list on the listing so you know which discs come in the box."
+      ],
+      "who_its_for": "Meal-preppers, busy families and anyone cooking a big holiday meal. Also a nice gift for someone who loves to cook.",
+      "faq": [
+        {
+          "q": "What does 5-in-1 mean?",
+          "a": "It crinkle-cuts, chops, purees, slices and shreds, using the included blade and discs."
+        },
+        {
+          "q": "Can I store food in the bowl?",
+          "a": "Yes. Both bowls come with storage lids, so you can prep, cover and put the bowl in the fridge."
+        },
+        {
+          "q": "What sizes are the bowls?",
+          "a": "One 5-cup bowl and one 7-cup bowl."
+        }
+      ],
+      "social_proof": "1.5M views on TikTok",
+      "video": "img/products/p006-ninja-prepi.mp4"
+    },
+    {
+      "id": "p004-the-pink-stuff",
+      "slug": "the-pink-stuff-paste",
+      "name": "The Pink Stuff cleaning paste",
+      "category": [
+        "cleaning"
+      ],
+      "short_note": "One pink paste for tiles, sinks, glass, window frames and garden furniture. Wipe it on with a damp sponge and rinse it off.",
+      "image": "img/products/p004-the-pink-stuff.webp",
+      "image_alt": "Tub of The Pink Stuff paste next to a shower tray being scrubbed",
+      "link": "https://www.amazon.com/dp/B00DU5SRIY?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "One pink paste, lots of cleaning jobs",
+      "intro": "The Pink Stuff is a cleaning paste you work in with a damp cloth or sponge and then rinse away. The brand suggests it for kitchens, bathrooms and outdoor surfaces. It's a good one to grab before holiday guests arrive.",
+      "why_we_like": [
+        "One tub for many spots: sinks, tiles, grout, glass and stovetops",
+        "Also suggested for window frames (uPVC) and garden furniture",
+        "Simple to use: damp sponge, work it in, rinse",
+        "The brand describes it as non-scratch on stainless steel, ceramic, porcelain and glass"
+      ],
+      "good_to_know": [
+        "It's an abrasive paste, so try a small hidden spot first on anything delicate.",
+        "Rinse well after cleaning."
+      ],
+      "who_its_for": "Anyone doing a deep clean, especially before guests come over for the holidays.",
+      "faq": [
+        {
+          "q": "How do I use it?",
+          "a": "Put a little on a damp cloth or sponge, work it into the surface, then rinse clean."
+        },
+        {
+          "q": "Where can I use it?",
+          "a": "The listing mentions sinks, tiles, grout, glass, stovetops, ovens, uPVC window frames and garden furniture."
+        }
+      ],
+      "social_proof": "23M views on TikTok",
+      "video": "img/products/p004-the-pink-stuff.mp4"
+    },
+    {
+      "id": "p007-egg-separator",
+      "slug": "basketball-egg-separator",
+      "name": "OTOTO Dunk N' Egg basketball yolk separator",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "A tiny basketball hoop for your bowl: crack the egg over it, the white drops through and the yolk stays in the net.",
+      "image": "img/products/p007-egg-separator.webp",
+      "image_alt": "Basketball hoop egg separator on a glass bowl next to a dish of yolks",
+      "link": "https://www.amazon.com/dp/B0C6MZYRFG?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "Separating eggs just became a game",
+      "intro": "Dunk N' Egg is a yolk separator shaped like a basketball hoop. Crack an egg over the net, the white falls into the bowl and the yolk stays behind. It's useful for holiday baking and makes a fun small gift.",
+      "why_we_like": [
+        "Separates yolk from white without passing it between shells",
+        "Fun basketball design that gets a laugh",
+        "The maker also suggests it for poached eggs, meringues and portion control",
+        "Rinses clean under warm water"
+      ],
+      "good_to_know": [
+        "It's a small, single-purpose gadget, so think of it as a fun extra.",
+        "Comes in a couple of colour options; ours is white and orange."
+      ],
+      "who_its_for": "Bakers, kids helping in the kitchen, and basketball fans. A good stocking stuffer.",
+      "faq": [
+        {
+          "q": "How does it work?",
+          "a": "Crack the egg over the hoop. The white drips through into the bowl and the yolk stays in the net."
+        },
+        {
+          "q": "How do I clean it?",
+          "a": "The listing says to rinse it under warm water."
+        }
+      ],
+      "social_proof": "82M views on Instagram",
+      "video": "img/products/p007-egg-separator.mp4"
+    }
+  ]
 }
