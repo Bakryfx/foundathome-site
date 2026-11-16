@@ -1,6 +1,6 @@
 # Found at Home website
 
-Static site for **foundathome.qimamai.tech** (GitHub Pages). No framework, no build tools, no trackers, no cookies.
+Static site for **foundathome.qimamai.tech** (GitHub Pages). No framework, no build tools, no cookies; visits are counted with cookieless Cloudflare Web Analytics (beacon in every page head, allowed in the CSP).
 
 ## Add a product (3 steps)
 
@@ -80,4 +80,4 @@ Product pages carry three identical official buy buttons (under the hero, after 
 
 ## Rules this site follows (Amazon Associates)
 
-Disclosure "As an Amazon Associate I earn from qualifying purchases." at the top of every page and in the footer, plus "Affiliate link" under every button. Buttons use `rel="sponsored nofollow noopener"` and open in a new tab. No prices, ratings, reviews, deal text, Amazon images or logos. No analytics or cookies.
+Disclosure "As an Amazon Associate I earn from qualifying purchases." at the top of every page and in the footer, plus "Affiliate link" under every button. Buttons use `rel="sponsored nofollow noopener"` and open in a new tab. No prices, ratings, reviews, deal text, Amazon images or logos. No cookies; only cookieless Cloudflare Web Analytics.
