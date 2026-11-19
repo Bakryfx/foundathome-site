@@ -3,7 +3,7 @@
 
 What it does:
   1. Reads products.json and checks every product (Amazon site rules included).
-  2. Pre-renders the product list into index.html, newest first, so the page
+  2. Pre-renders the product list into index.html, newest POSTED reel first (reels not yet live are hidden until their queue.json date), so the page
      works with JavaScript off and search engines can read it. Each card links
      to its own product page.
   3. Writes one page per product: p/<slug>/index.html (hero, three buy buttons,
@@ -57,7 +57,7 @@ MAX_IMAGE_BYTES = 150 * 1024
 MAX_VIDEO_BYTES = 8 * 1024 * 1024
 START = "<!-- build:products"
 END = "<!-- /build:products -->"
-TEXT_FIELDS = ("name", "short_note", "headline", "intro", "who_its_for", "social_proof")
+TEXT_FIELDS = ("name", "short_note", "headline", "intro", "who_its_for")
 LIST_FIELDS = ("why_we_like", "good_to_know")
 
 esc = html.escape
@@ -72,23 +72,6 @@ def load_products() -> list[dict]:
         if "short_note" not in p and "note" in p:
             p["short_note"] = p["note"]
     return items
-
-
-def fmt_num(m: re.Match) -> str:
-    n = int(m.group(0).replace(",", ""))
-    if n >= 1_000_000:
-        v, u = n / 1_000_000, "M"
-    elif n >= 1000:
-        v, u = n / 1000, "K"
-    else:
-        return str(n)
-    t = f"{v:.1f}" if v < 10 else f"{v:.0f}"
-    return t.rstrip("0").rstrip(".") + u if "." in t else t + u
-
-
-def proof_text(p: dict) -> str:
-    """'3200000 views on TikTok' -> '3.2M views on TikTok' (already short numbers stay as written)."""
-    return re.sub(r"\d[\d,]{3,}", fmt_num, str(p.get("social_proof") or "").strip())
 
 
 def slug_of(p: dict) -> str:
@@ -163,11 +146,8 @@ def check(products: list[dict]) -> list[str]:
             m = BANNED.search(val)
             if m:
                 errors.append(f"{where}: '{field}' contains '{m.group(0)}' (no prices, ratings, reviews, sales counts, deal or 'tested' wording)")
-        sp = str(p.get("social_proof") or "")
-        if sp and re.search(r"amazon", sp, re.I):
-            errors.append(f"{where}: social_proof must be non-Amazon data only (e.g. TikTok views)")
-        if sp and not re.search(r"tiktok|instagram", sp, re.I):
-            errors.append(f"{where}: social_proof must say where the number is from, e.g. '3.2M views on TikTok' or '190M views on Instagram'")
+        if p.get("social_proof"):
+            errors.append(f"{where}: remove 'social_proof' (view counts of other creators' videos are not shown on the site)")
         note = str(p.get("short_note", ""))
         if len(note) > 220:
             errors.append(f"{where}: short_note is {len(note)} characters; keep it to 1-2 short sentences (max 220)")
@@ -201,11 +181,47 @@ def check(products: list[dict]) -> list[str]:
     return errors
 
 
-def sort_newest(products: list[dict]) -> list[dict]:
-    # newest first; for the same date, the one listed later in the file comes first
-    indexed = list(enumerate(products))
-    indexed.sort(key=lambda t: (str(t[1]["added"]), t[0]), reverse=True)
-    return [p for _, p in indexed]
+QUEUE = ROOT.parent / "company" / "social_manager" / "queue.json"
+EGYPT = dt.timezone(dt.timedelta(hours=2))  # queue dates and slots are Egypt local time
+SLOT_FIRST_POST = {"A": dt.time(16, 0), "B": dt.time(1, 0)}  # first platform post of each slot (Pinterest)
+
+
+def go_live_times() -> dict[str, dt.datetime]:
+    """ASIN -> earliest scheduled go-live (Egypt time) of that product's reel, read-only from queue.json.
+    Items with a 'hold' field are ignored. P016G-style repeats do not matter: the earliest wins."""
+    out: dict[str, dt.datetime] = {}
+    if not QUEUE.is_file():
+        return out
+    for it in json.loads(QUEUE.read_text(encoding="utf-8")).get("items", []):
+        if it.get("hold") or not it.get("asin"):
+            continue
+        try:
+            d = dt.date.fromisoformat(it["date"])
+        except (KeyError, ValueError):
+            continue
+        t = dt.datetime.combine(d, SLOT_FIRST_POST.get(it.get("slot"), dt.time(0, 0)), EGYPT)
+        if it["asin"] not in out or t < out[it["asin"]]:
+            out[it["asin"]] = t
+    return out
+
+
+def asin_of(p: dict) -> str:
+    m = re.search(r"/dp/([A-Z0-9]{10})", str(p.get("link", "")))
+    return m.group(1) if m else ""
+
+
+def live_products(products: list[dict], now: dt.datetime | None = None) -> list[dict]:
+    """Only products whose reel has already gone live, newest post first.
+    Not in the queue = falls back to its 'added' date. Rebuild to refresh."""
+    now = now or dt.datetime.now(EGYPT)
+    times = go_live_times()
+    rows = []
+    for i, p in enumerate(products):
+        t = times.get(asin_of(p)) or dt.datetime.combine(dt.date.fromisoformat(str(p["added"])), dt.time(0, 0), EGYPT)
+        if t <= now:
+            rows.append((t, i, p))
+    rows.sort(key=lambda r: (r[0], r[1]), reverse=True)
+    return [p for _, _, p in rows]
 
 
 # ---------------------------------------------------------------- hub (index.html)
@@ -215,12 +231,10 @@ def card(p: dict, eager: bool) -> str:
     label = " · ".join(CATEGORIES[c] for c in cats)
     loading = 'fetchpriority="high"' if eager else 'loading="lazy"'
     href = f"{PAGES_DIR}/{esc(slug_of(p))}/"
-    sp = proof_text(p)
-    badge = f'<span class="proof-badge">🔥 {esc(sp)}</span>' if sp else ""
     return (
         f'  <li class="card" id="{esc(p["id"])}" data-cat="{esc(" ".join(cats))}">\n'
         f'    <a class="card-imglink" href="{href}" tabindex="-1" aria-hidden="true">'
-        f'<img class="card-img" src="{esc(p["image"])}" alt="" width="400" height="500" {loading} decoding="async">{badge}</a>\n'
+        f'<img class="card-img" src="{esc(p["image"])}" alt="" width="400" height="500" {loading} decoding="async"></a>\n'
         f'    <div class="card-body">\n'
         f'      <p class="card-cat">{esc(label)}</p>\n'
         f'      <h3 class="card-name"><a href="{href}">{esc(p["name"])}</a></h3>\n'
@@ -410,7 +424,7 @@ def product_page(p: dict) -> str:
     <div class="pp-main">
       <p class="card-cat">{esc(label)}</p>
       <h1 class="pp-title">{esc(p["headline"])}</h1>
-      {proof}<p class="pp-name">{esc(p["name"])}</p>
+      <p class="pp-name">{esc(p["name"])}</p>
       <div class="buy-block">
         {buy_button(p, "top")}
         <p class="disclosure-top">As an Amazon Associate I earn from qualifying purchases.</p>
@@ -509,11 +523,11 @@ def main() -> None:
         for e in errors:
             print("  -", e)
         sys.exit(1)
-    products = sort_newest(products)
-    write_index(products)
-    n = write_product_pages(products)
-    write_sitemap(products)
-    print(f"Built index.html, {n} product page(s) and sitemap.xml.")
+    live = live_products(products)
+    write_index(live)
+    n = write_product_pages(products)  # pages of not-yet-posted reels exist but are not listed
+    write_sitemap(live)
+    print(f"Built index.html ({len(live)} live of {len(products)}; the rest wait for their post date), {n} product page(s) and sitemap.xml.")
 
 
 if __name__ == "__main__":

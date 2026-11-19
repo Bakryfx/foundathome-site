@@ -5,7 +5,7 @@ Static site for **foundathome.qimamai.tech** (GitHub Pages). No framework, no bu
 ## Add a product (3 steps)
 
 1. **Add the image.** Save a frame from OUR video as WebP, about 720x900 (4:5), **150 KB or less**, in `img/products/` (for example `img/products/p004-oil-sprayer.webp`). Never use Amazon's product photos or screenshots.
-2. **Edit `products.json`.** Add one entry inside `"products": [ ... ]` (order doesn't matter; the site sorts newest first):
+2. **Edit `products.json`.** Add one entry inside `"products": [ ... ]` (order doesn't matter). The homepage lists only products whose reel has gone live (go-live time comes from `company/social_manager/queue.json`, matched by ASIN, read-only), newest post first; future ones stay hidden until you rebuild after their date. Never add view counts from other creators' videos:
 
    ```json
    {
@@ -24,8 +24,7 @@ Static site for **foundathome.qimamai.tech** (GitHub Pages). No framework, no bu
      "good_to_know": ["1 to 3 honest caveats, e.g. measure your cabinet first"],
      "who_its_for": "One sentence about who will like it.",
      "faq": [{"q": "Question?", "a": "Short answer."}, {"q": "Second question?", "a": "Answer."}],
-     "video": "img/products/p004-oil-sprayer.mp4",
-     "social_proof": "3.2M views on TikTok"
+     "video": "img/products/p004-oil-sprayer.mp4"
    }
    ```
 3. **Build and publish.** In this folder run `python build.py`, then commit and push:
@@ -57,7 +56,6 @@ Static site for **foundathome.qimamai.tech** (GitHub Pages). No framework, no bu
 | `who_its_for` | yes | one or two sentences |
 | `faq` | yes | list of 2-4 `{"q","a"}` pairs (also written as FAQPage JSON-LD) |
 | `video` | no | path to OUR short `.mp4` (max 8 MB, lazy-loaded, poster = `image`) or an 11-character YouTube Shorts ID (the player loads only after a tap, so no third-party request before that) |
-| `social_proof` | no | non-Amazon data only, must say TikTok or Instagram, e.g. `"3.2M views on TikTok"` (use the views of the exact clip our video is cut from) (raw numbers like `3200000` become `3.2M`). Shown as a badge on the hub card and under the page H1; hidden when empty. |
 
 **Hard rule (Amazon Associates Operating Agreement):** never show Amazon prices, star ratings, review counts, customer review text or "bought in past month" counts. `build.py` rejects `$`, price, rating, stars, reviews, bought, sold, "% off", deal, sale, discount, best seller, and "I/we tested" in every text field, bullets and FAQ included, and refuses to build.
 
