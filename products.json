@@ -645,6 +645,45 @@
     }
    ],
    "video": "img/products/p021-roll-up-dish-rack.mp4"
+  },
+  {
+   "id": "p019-whisk-wiper",
+   "slug": "whisk-wiper",
+   "name": "Whisk Wiper PRO for stand mixers",
+   "category": [
+    "kitchen",
+    "gifts"
+   ],
+   "short_note": "Slide it onto the stand-mixer whisk and pull: the frosting and batter come off in seconds and drips stay off the counter.",
+   "image": "img/products/p019-whisk-wiper.webp",
+   "image_alt": "Clear Whisk Wiper on a stand mixer whisk",
+   "link": "https://www.amazon.com/dp/B07796MWGN?tag=foundsite-20",
+   "added": "2026-11-24",
+   "headline": "Frosting stuck in the whisk? One pull",
+   "intro": "Getting frosting out of a stand-mixer whisk is messy. This clear wiper fits on the whisk, and one pull wipes it clean. Its shape also scrapes the bowl, and it catches drips when you set the whisk down.",
+   "why_we_like": [
+    "Wipes the whisk and bowl in seconds",
+    "Catches drips when it stands on the counter",
+    "Shaped to clean the mixer bowl too",
+    "Made for KitchenAid tilt-head 4.5 and 5 quart mixers"
+   ],
+   "good_to_know": [
+    "Hand wash only, and keep it away from high heat.",
+    "Check your mixer model: this version is for KitchenAid tilt-head 4.5 and 5 quart."
+   ],
+   "who_its_for": "Bakers with a KitchenAid tilt-head stand mixer, and a small gift for the friend who bakes every holiday.",
+   "faq": [
+    {
+     "q": "Which mixers does it fit?",
+     "a": "The listing says KitchenAid tilt-head stand mixers, 4.5 and 5 quart."
+    },
+    {
+     "q": "Is it dishwasher safe?",
+     "a": "No, the listing says hand wash only."
+    }
+   ],
+   "video": "img/products/p019-whisk-wiper.mp4",
+   "social_proof": "4.4M views on Instagram"
   }
  ]
 }
