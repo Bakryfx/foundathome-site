@@ -42,6 +42,7 @@
      "a": "The listing mentions chicken, pork and beef, for things like tacos and pulled pork."
     }
    ],
+   "social_proof": "190M views on Instagram",
    "video": "img/products/p005-chicken-shredder.mp4"
   },
   {
@@ -85,6 +86,7 @@
      "a": "One 5-cup bowl and one 7-cup bowl."
     }
    ],
+   "social_proof": "1.5M views on TikTok",
    "video": "img/products/p006-ninja-prepi.mp4"
   },
   {
@@ -122,6 +124,7 @@
      "a": "The listing mentions sinks, tiles, grout, glass, stovetops, ovens, uPVC window frames and garden furniture."
     }
    ],
+   "social_proof": "23M views on TikTok",
    "video": "img/products/p004-the-pink-stuff.mp4"
   },
   {
@@ -160,6 +163,7 @@
      "a": "The listing says to rinse it under warm water."
     }
    ],
+   "social_proof": "82M views on Instagram",
    "video": "img/products/p007-egg-separator.mp4"
   },
   {
@@ -204,7 +208,8 @@
      "a": "24 brown silicone hangers, each about 7.9 inches long."
     }
    ],
-   "video": "img/products/p012-garland-hooks.mp4"
+   "video": "img/products/p012-garland-hooks.mp4",
+   "social_proof": "4.6M views on TikTok"
   },
   {
    "id": "p010-pots-pans-rack",
@@ -248,7 +253,8 @@
      "a": "The listing says 66 lbs in total, or 11 lbs per tier."
     }
    ],
-   "video": "img/products/p010-pots-pans-rack.mp4"
+   "video": "img/products/p010-pots-pans-rack.mp4",
+   "social_proof": "64M views on Instagram"
   },
   {
    "id": "p008-cup-lid-brush",
@@ -287,7 +293,8 @@
      "a": "Tumbler and mug lids, cup rims, straws, baby bottles and other narrow containers."
     }
    ],
-   "video": "img/products/p008-cup-lid-brush.mp4"
+   "video": "img/products/p008-cup-lid-brush.mp4",
+   "social_proof": "35.9M views on Instagram"
   },
   {
    "id": "p009-spin-scrubber",
@@ -329,7 +336,8 @@
      "a": "You can dip the brush head, but the maker says not to put the main body under water."
     }
    ],
-   "video": "img/products/p009-spin-scrubber.mp4"
+   "video": "img/products/p009-spin-scrubber.mp4",
+   "social_proof": "7.8M views on Instagram"
   },
   {
    "id": "p013-better-breader",
@@ -372,7 +380,8 @@
      "a": "The maker mentions chicken tenders, wings, fish, shrimp, pork chops, onion rings and vegetables."
     }
    ],
-   "video": "img/products/p013-better-breader.mp4"
+   "video": "img/products/p013-better-breader.mp4",
+   "social_proof": "79M views on Instagram"
   },
   {
    "id": "p014-ninja-slushi",
@@ -416,7 +425,8 @@
      "a": "Not on their own. The maker recommends adding a sugar substitute."
     }
    ],
-   "video": "img/products/p014-ninja-slushi.mp4"
+   "video": "img/products/p014-ninja-slushi.mp4",
+   "social_proof": "80M views on Instagram"
   },
   {
    "id": "p015-motion-lights",
@@ -460,7 +470,8 @@
      "a": "No, each light has a built-in rechargeable battery."
     }
    ],
-   "video": "img/products/p015-motion-lights.mp4"
+   "video": "img/products/p015-motion-lights.mp4",
+   "social_proof": "11.8M views on Instagram"
   },
   {
    "id": "p016-meat-thermometer",
@@ -503,7 +514,8 @@
      "a": "No. The listing says it also works for liquids, deep frying and candy making."
     }
    ],
-   "video": "img/products/p016-meat-thermometer.mp4"
+   "video": "img/products/p016-meat-thermometer.mp4",
+   "social_proof": "40.6K views on Instagram"
   },
   {
    "id": "p017-vegetable-chopper",
@@ -546,7 +558,8 @@
      "a": "Yes, it includes a spiralizer."
     }
    ],
-   "video": "img/products/p017-vegetable-chopper.mp4"
+   "video": "img/products/p017-vegetable-chopper.mp4",
+   "social_proof": "253.3K views on Instagram"
   },
   {
    "id": "p020-oxo-fat-separator",
@@ -588,7 +601,8 @@
      "a": "The liquid releases from the bottom, so the fat that sits on top stays in the cup."
     }
    ],
-   "video": "img/products/p020-oxo-fat-separator.mp4"
+   "video": "img/products/p020-oxo-fat-separator.mp4",
+   "social_proof": "641K views on Instagram"
   },
   {
    "id": "p021-roll-up-dish-rack",
@@ -668,7 +682,8 @@
      "a": "No, the listing says hand wash only."
     }
    ],
-   "video": "img/products/p019-whisk-wiper.mp4"
+   "video": "img/products/p019-whisk-wiper.mp4",
+   "social_proof": "4.4M views on Instagram"
   }
  ]
 }

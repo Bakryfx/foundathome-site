@@ -355,6 +355,11 @@ a { color: inherit; }
 
 /* ---------- Card links (hub) ---------- */
 .card-imglink { display: block; position: relative; }
+.proof-badge {
+  position: absolute; top: 6px; left: 6px; max-width: calc(100% - 12px);
+  padding: 3px 7px; font-size: 0.6875rem; font-weight: 700; line-height: 1.2;
+  color: #fff; background: rgba(47, 38, 34, 0.88); border-radius: 10px;
+}
 .card-name a { text-decoration: none; }
 .card-name a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
@@ -382,6 +387,10 @@ a { color: inherit; }
   font-size: clamp(1.75rem, 6.5vw, 2.5rem); line-height: 1.12; letter-spacing: -0.01em; margin: 2px 0 6px;
 }
 .pp-name { margin: 0 0 14px; color: var(--espresso-soft); font-size: 0.9375rem; }
+.proof {
+  display: inline-block; margin: 0 0 10px; padding: 6px 14px; font-size: 0.9375rem; font-weight: 700;
+  background: var(--espresso); border-radius: 999px; color: #fff;
+}
 .buy-block { margin: 18px 0; text-align: center; }
 .buy-block .btn { width: 100%; max-width: 420px; min-height: 54px; font-size: 1.0625rem; }
 .buy-block .disclosure-top { margin: 10px 0 0; }
@@ -426,3 +435,4 @@ a { color: inherit; }
   .pp-media { position: sticky; top: 16px; margin: 0; max-width: none; }
   .buy-block { text-align: left; }
 }
+@media (min-width: 640px) { .proof-badge { font-size: 0.75rem; padding: 4px 9px; border-radius: 999px; } }
