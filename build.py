@@ -3,7 +3,7 @@
 
 What it does:
   1. Reads products.json and checks every product (Amazon site rules included).
-  2. Pre-renders the product list into index.html, newest POSTED reel first (reels not yet live are hidden until their queue.json date), so the page
+  2. Pre-renders the product list into index.html, ALL products, newest first (owner rule 20 Nov: nothing is hidden), so the page
      works with JavaScript off and search engines can read it. Each card links
      to its own product page.
   3. Writes one page per product: p/<slug>/index.html (hero, three buy buttons,
@@ -211,15 +211,13 @@ def asin_of(p: dict) -> str:
 
 
 def live_products(products: list[dict], now: dt.datetime | None = None) -> list[dict]:
-    """Only products whose reel has already gone live, newest post first.
-    Not in the queue = falls back to its 'added' date. Rebuild to refresh."""
-    now = now or dt.datetime.now(EGYPT)
+    """ALL products, newest first (owner rule 2026-11-20: every product we pick goes on the site
+    right away, even before its reel posts). Order = reel go-live time from queue.json, else 'added'."""
     times = go_live_times()
     rows = []
     for i, p in enumerate(products):
         t = times.get(asin_of(p)) or dt.datetime.combine(dt.date.fromisoformat(str(p["added"])), dt.time(0, 0), EGYPT)
-        if t <= now:
-            rows.append((t, i, p))
+        rows.append((t, i, p))
     rows.sort(key=lambda r: (r[0], r[1]), reverse=True)
     return [p for _, _, p in rows]
 
@@ -527,7 +525,7 @@ def main() -> None:
     write_index(live)
     n = write_product_pages(products)  # pages of not-yet-posted reels exist but are not listed
     write_sitemap(live)
-    print(f"Built index.html ({len(live)} live of {len(products)}; the rest wait for their post date), {n} product page(s) and sitemap.xml.")
+    print(f"Built index.html ({len(live)} of {len(products)} listed), {n} product page(s) and sitemap.xml.")
 
 
 if __name__ == "__main__":
