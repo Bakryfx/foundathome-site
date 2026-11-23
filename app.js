@@ -49,9 +49,16 @@
     var na = el("a", null, p.name); na.href = href; h.appendChild(na);
     body.appendChild(h);
     body.appendChild(el("p", "card-note", p.short_note || p.note));
-    var a = el("a", "btn", "See the find");
-    a.href = href;
-    body.appendChild(a);
+    var acts = el("div", "card-actions");
+    var b = el("a", "btn btn-buy", "Check it on Amazon");
+    b.href = p.link; b.target = "_blank"; b.rel = "sponsored nofollow noopener";
+    b.setAttribute("data-pos", "home");
+    acts.appendChild(b);
+    acts.appendChild(el("p", "card-ad", "Affiliate link"));
+    var more = el("a", "card-more", "See the find");
+    more.href = href;
+    acts.appendChild(more);
+    body.appendChild(acts);
     li.appendChild(imgLink); li.appendChild(body);
     return li;
   }

@@ -230,7 +230,12 @@ def card(p: dict, eager: bool) -> str:
         f'      <p class="card-cat">{esc(label)}</p>\n'
         f'      <h3 class="card-name"><a href="{href}">{esc(p["name"])}</a></h3>\n'
         f'      <p class="card-note">{esc(p["short_note"])}</p>\n'
-        f'      <a class="btn" href="{href}">See the find<span class="sr-only"> : {esc(p["name"])}</span></a>\n'
+        f'      <div class="card-actions">\n'
+        f'        <a class="btn btn-buy" href="{esc(p["link"])}" rel="sponsored nofollow noopener" target="_blank" data-pos="home">'
+        f'Check it on Amazon<span class="sr-only"> : {esc(p["name"])} (opens Amazon in a new tab)</span></a>\n'
+        f'        <p class="card-ad">Affiliate link</p>\n'
+        f'        <a class="card-more" href="{href}">See the find<span class="sr-only"> : {esc(p["name"])}</span></a>\n'
+        f'      </div>\n'
         f'    </div>\n'
         f'  </li>'
     )

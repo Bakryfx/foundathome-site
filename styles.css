@@ -436,3 +436,10 @@ a { color: inherit; }
   .buy-block { text-align: left; }
 }
 @media (min-width: 640px) { .proof-badge { font-size: 0.75rem; padding: 4px 9px; border-radius: 999px; } }
+
+/* 2026-11-23 team meeting: direct Amazon button on homepage cards + deep-link highlight */
+.card-actions { margin-top: auto; display: flex; flex-direction: column; gap: 4px; }
+.card-actions .btn { width: 100%; margin-top: 0; }
+.card-actions .card-ad { text-align: center; margin: 0; }
+.card-more { text-align: center; font-size: 0.875rem; padding: 10px 0; color: var(--espresso-soft); text-decoration: underline; }
+.card:target { outline: 3px solid var(--terracotta); outline-offset: 2px; scroll-margin-top: 12px; }
