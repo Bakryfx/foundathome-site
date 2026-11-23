@@ -44,7 +44,7 @@
     var sp = proofText(p);
     if (sp) imgLink.appendChild(el("span", "proof-badge", "🔥 " + sp));
     var body = el("div", "card-body");
-    body.appendChild(el("p", "card-cat", c.map(function (k) { return LABELS[k]; }).join(" · ")));
+    body.appendChild(el("p", "card-cat", (p.featured ? "Most watched · " : "") + c.map(function (k) { return LABELS[k]; }).join(" · ")));
     var h = el("h3", "card-name");
     var na = el("a", null, p.name); na.href = href; h.appendChild(na);
     body.appendChild(h);
@@ -117,7 +117,11 @@
           return p && p.id && p.name && p.link && okLink(p.link);
         });
         list = list.map(function (p, i) { return { p: p, i: i }; })
-          .sort(function (a, b) { return a.p.added === b.p.added ? b.i - a.i : (a.p.added < b.p.added ? 1 : -1); })
+          .sort(function (a, b) {
+            var fa = a.p.featured || 99, fb = b.p.featured || 99;
+            if (fa !== fb) return fa - fb;
+            return a.p.added === b.p.added ? b.i - a.i : (a.p.added < b.p.added ? 1 : -1);
+          })
           .map(function (x) { return x.p; });
         var now = $$("#grid .card").map(function (c) { return c.id; }).join(",");
         if (list.map(function (p) { return p.id; }).join(",") !== now) render(list);

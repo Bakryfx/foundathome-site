@@ -203,9 +203,12 @@ def check(products: list[dict]) -> list[str]:
 
 def sort_newest(products: list[dict]) -> list[dict]:
     # newest first; for the same date, the one listed later in the file comes first
+    # "featured": 1..4 = our most watched videos (set by hand from the daily report); they go first
     indexed = list(enumerate(products))
     indexed.sort(key=lambda t: (str(t[1]["added"]), t[0]), reverse=True)
-    return [p for _, p in indexed]
+    out = [p for _, p in indexed]
+    top = sorted((p for p in out if p.get("featured")), key=lambda p: int(p["featured"]))
+    return top + [p for p in out if not p.get("featured")]
 
 
 # ---------------------------------------------------------------- hub (index.html)
@@ -213,6 +216,8 @@ def sort_newest(products: list[dict]) -> list[dict]:
 def card(p: dict, eager: bool) -> str:
     cats = categories_of(p)
     label = " · ".join(CATEGORIES[c] for c in cats)
+    if p.get("featured"):
+        label = "Most watched · " + label
     loading = 'fetchpriority="high"' if eager else 'loading="lazy"'
     href = f"{PAGES_DIR}/{esc(slug_of(p))}/"
     sp = proof_text(p)

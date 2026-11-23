@@ -1,689 +1,693 @@
 {
- "products": [
-  {
-   "id": "p005-chicken-shredder",
-   "slug": "chicken-shredder",
-   "name": "Twist chicken shredder with clear lid",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "Put cooked chicken in, lid on, twist. The clear lid lets you watch it shred. Handy for tacos, salads and holiday leftovers.",
-   "image": "img/products/p005-chicken-shredder.webp",
-   "image_alt": "Bowl of freshly shredded chicken inside a twist shredder",
-   "link": "https://www.amazon.com/dp/B0CGRGRXPY?tag=foundsite-20",
-   "added": "2026-11-17",
-   "headline": "Shred chicken without two forks: just twist",
-   "intro": "This is a bowl with plastic teeth inside and a clear lid on top. You put in cooked meat, close it and twist, and you can see through the lid when it's done. It's a small thing that makes tacos, enchiladas and leftover turkey a lot less messy.",
-   "why_we_like": [
-    "Twist to shred instead of pulling meat apart with two forks",
-    "Clear lid so you can see when it's shredded enough",
-    "Anti-slip base and an ergonomic handle",
-    "Dishwasher safe and BPA free, with a cleaning brush included",
-    "Works for chicken, pork and beef"
-   ],
-   "good_to_know": [
-    "Use cooked meat only. The maker says raw meat can damage the spikes.",
-    "Cut bigger pieces smaller first and shred in a few batches.",
-    "Comes in many colours; the one in our video may look different from the default."
-   ],
-   "who_its_for": "Anyone who meal-preps shredded chicken or wants an easy way through Thanksgiving leftovers.",
-   "faq": [
+  "products": [
     {
-     "q": "Can I shred raw chicken in it?",
-     "a": "No. The maker says to cook the meat first; raw meat can damage the spikes."
+      "id": "p005-chicken-shredder",
+      "slug": "chicken-shredder",
+      "name": "Twist chicken shredder with clear lid",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Put cooked chicken in, lid on, twist. The clear lid lets you watch it shred. Handy for tacos, salads and holiday leftovers.",
+      "image": "img/products/p005-chicken-shredder.webp",
+      "image_alt": "Bowl of freshly shredded chicken inside a twist shredder",
+      "link": "https://www.amazon.com/dp/B0CGRGRXPY?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "Shred chicken without two forks: just twist",
+      "intro": "This is a bowl with plastic teeth inside and a clear lid on top. You put in cooked meat, close it and twist, and you can see through the lid when it's done. It's a small thing that makes tacos, enchiladas and leftover turkey a lot less messy.",
+      "why_we_like": [
+        "Twist to shred instead of pulling meat apart with two forks",
+        "Clear lid so you can see when it's shredded enough",
+        "Anti-slip base and an ergonomic handle",
+        "Dishwasher safe and BPA free, with a cleaning brush included",
+        "Works for chicken, pork and beef"
+      ],
+      "good_to_know": [
+        "Use cooked meat only. The maker says raw meat can damage the spikes.",
+        "Cut bigger pieces smaller first and shred in a few batches.",
+        "Comes in many colours; the one in our video may look different from the default."
+      ],
+      "who_its_for": "Anyone who meal-preps shredded chicken or wants an easy way through Thanksgiving leftovers.",
+      "faq": [
+        {
+          "q": "Can I shred raw chicken in it?",
+          "a": "No. The maker says to cook the meat first; raw meat can damage the spikes."
+        },
+        {
+          "q": "Is it dishwasher safe?",
+          "a": "Yes, the listing says it's dishwasher safe, and a cleaning brush comes with it."
+        },
+        {
+          "q": "Does it work for other meat?",
+          "a": "The listing mentions chicken, pork and beef, for things like tacos and pulled pork."
+        }
+      ],
+      "social_proof": "190M views on Instagram",
+      "video": "img/products/p005-chicken-shredder.mp4",
+      "featured": 2
     },
     {
-     "q": "Is it dishwasher safe?",
-     "a": "Yes, the listing says it's dishwasher safe, and a cleaning brush comes with it."
+      "id": "p006-ninja-prepi",
+      "slug": "ninja-prepi",
+      "name": "Ninja PREPi 5-in-1 Prep & Store System (PN301)",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Slices, shreds, crinkle-cuts, chops and purees straight into a bowl, then the same bowl gets a lid and goes in the fridge.",
+      "image": "img/products/p006-ninja-prepi.webp",
+      "image_alt": "Ninja PREPi base on a counter with a bowl of fresh guacamole",
+      "link": "https://www.amazon.com/dp/B0HFT8YPHR?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "Ninja PREPi: prep it and store it in the same bowl",
+      "intro": "The PREPi is a compact 500-watt base with a feed chute and discs that slice, shred and crinkle-cut right into the bowl underneath. Swap in the blade and it chops or purees. When you're done, snap a lid on the bowl and put it straight in the fridge.",
+      "why_we_like": [
+        "Five jobs in one: crinkle cut, chop, puree, slice and shred",
+        "Food goes straight into the bowl, so there's less to wash",
+        "Two bowls (5-cup and 7-cup), each with its own storage lid",
+        "One reversible disc: slice on one side, shred on the other",
+        "Compact base that doesn't take over the counter"
+      ],
+      "good_to_know": [
+        "It's a prep machine, not a blender for drinks.",
+        "Check the parts list on the listing so you know which discs come in the box."
+      ],
+      "who_its_for": "Meal-preppers, busy families and anyone cooking a big holiday meal. Also a nice gift for someone who loves to cook.",
+      "faq": [
+        {
+          "q": "What does 5-in-1 mean?",
+          "a": "It crinkle-cuts, chops, purees, slices and shreds, using the included blade and discs."
+        },
+        {
+          "q": "Can I store food in the bowl?",
+          "a": "Yes. Both bowls come with storage lids, so you can prep, cover and put the bowl in the fridge."
+        },
+        {
+          "q": "What sizes are the bowls?",
+          "a": "One 5-cup bowl and one 7-cup bowl."
+        }
+      ],
+      "social_proof": "1.5M views on TikTok",
+      "video": "img/products/p006-ninja-prepi.mp4"
     },
     {
-     "q": "Does it work for other meat?",
-     "a": "The listing mentions chicken, pork and beef, for things like tacos and pulled pork."
+      "id": "p004-the-pink-stuff",
+      "slug": "the-pink-stuff-paste",
+      "name": "The Pink Stuff cleaning paste",
+      "category": [
+        "cleaning"
+      ],
+      "short_note": "One pink paste for tiles, sinks, glass, window frames and garden furniture. Wipe it on with a damp sponge and rinse it off.",
+      "image": "img/products/p004-the-pink-stuff.webp",
+      "image_alt": "Tub of The Pink Stuff paste next to a shower tray being scrubbed",
+      "link": "https://www.amazon.com/dp/B00DU5SRIY?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "One pink paste, lots of cleaning jobs",
+      "intro": "The Pink Stuff is a cleaning paste you work in with a damp cloth or sponge and then rinse away. The brand suggests it for kitchens, bathrooms and outdoor surfaces. It's a good one to grab before holiday guests arrive.",
+      "why_we_like": [
+        "One tub for many spots: sinks, tiles, grout, glass and stovetops",
+        "Also suggested for window frames (uPVC) and garden furniture",
+        "Simple to use: damp sponge, work it in, rinse",
+        "The brand describes it as non-scratch on stainless steel, ceramic, porcelain and glass"
+      ],
+      "good_to_know": [
+        "It's an abrasive paste, so try a small hidden spot first on anything delicate.",
+        "Rinse well after cleaning."
+      ],
+      "who_its_for": "Anyone doing a deep clean, especially before guests come over for the holidays.",
+      "faq": [
+        {
+          "q": "How do I use it?",
+          "a": "Put a little on a damp cloth or sponge, work it into the surface, then rinse clean."
+        },
+        {
+          "q": "Where can I use it?",
+          "a": "The listing mentions sinks, tiles, grout, glass, stovetops, ovens, uPVC window frames and garden furniture."
+        }
+      ],
+      "social_proof": "23M views on TikTok",
+      "video": "img/products/p004-the-pink-stuff.mp4",
+      "featured": 3
+    },
+    {
+      "id": "p007-egg-separator",
+      "slug": "basketball-egg-separator",
+      "name": "OTOTO Dunk N' Egg basketball yolk separator",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "A tiny basketball hoop for your bowl: crack the egg over it, the white drops through and the yolk stays in the net.",
+      "image": "img/products/p007-egg-separator.webp",
+      "image_alt": "Basketball hoop egg separator on a glass bowl next to a dish of yolks",
+      "link": "https://www.amazon.com/dp/B0C6MZYRFG?tag=foundsite-20",
+      "added": "2026-11-17",
+      "headline": "Separating eggs just became a game",
+      "intro": "Dunk N' Egg is a yolk separator shaped like a basketball hoop. Crack an egg over the net, the white falls into the bowl and the yolk stays behind. It's useful for holiday baking and makes a fun small gift.",
+      "why_we_like": [
+        "Separates yolk from white without passing it between shells",
+        "Fun basketball design that gets a laugh",
+        "The maker also suggests it for poached eggs, meringues and portion control",
+        "Rinses clean under warm water"
+      ],
+      "good_to_know": [
+        "It's a small, single-purpose gadget, so think of it as a fun extra.",
+        "Comes in a couple of colour options; ours is white and orange."
+      ],
+      "who_its_for": "Bakers, kids helping in the kitchen, and basketball fans. A good stocking stuffer.",
+      "faq": [
+        {
+          "q": "How does it work?",
+          "a": "Crack the egg over the hoop. The white drips through into the bowl and the yolk stays in the net."
+        },
+        {
+          "q": "How do I clean it?",
+          "a": "The listing says to rinse it under warm water."
+        }
+      ],
+      "social_proof": "82M views on Instagram",
+      "video": "img/products/p007-egg-separator.mp4",
+      "featured": 1
+    },
+    {
+      "id": "p012-garland-hooks",
+      "slug": "christmas-garland-hangers",
+      "name": "Silicone Christmas garland hangers (24 pcs, brown)",
+      "category": [
+        "decor",
+        "gifts"
+      ],
+      "short_note": "Stick the base down, press, wait ten seconds, then strap the garland in. Made for mantels, stair rails and shelves, with no drilling.",
+      "image": "img/products/p012-garland-hooks.webp",
+      "image_alt": "Console table decorated with a green garland held by brown silicone hangers",
+      "link": "https://www.amazon.com/dp/B0FVXFHNZ5?tag=foundsite-20",
+      "added": "2026-11-18",
+      "headline": "Hang Christmas garland without drilling",
+      "intro": "These are stretchy silicone straps with a self-adhesive base. You stick the base where you want the garland, press it hard, wait a few seconds, and loop the strap around the garland. It's a simple way to dress a mantel, a stair rail or a shelf for the holidays.",
+      "why_we_like": [
+        "No drilling or nails: a self-adhesive base plus a silicone strap",
+        "24 hangers in the pack, enough for a long garland",
+        "Stretchy silicone that wraps around thick garland",
+        "Brown color that blends in with the greenery",
+        "Also handy as general clips and bundlers around the house"
+      ],
+      "good_to_know": [
+        "Clean the spot first, press hard and wait at least ten seconds before hanging, as the maker says.",
+        "Our video shows a console table; the maker lists mantels, stair rails, banisters and shelves.",
+        "Try one on your surface first before doing the whole run."
+      ],
+      "who_its_for": "Anyone decorating for Christmas who doesn't want holes in the mantel or stair rail.",
+      "faq": [
+        {
+          "q": "Do I need tools?",
+          "a": "No. The base is self-adhesive and the strap loops around the garland."
+        },
+        {
+          "q": "How do I put them up?",
+          "a": "Clean the spot, peel the backing, press hard, wait about ten seconds, then loop the strap around the garland and fasten it."
+        },
+        {
+          "q": "How many are in the pack?",
+          "a": "24 brown silicone hangers, each about 7.9 inches long."
+        }
+      ],
+      "video": "img/products/p012-garland-hooks.mp4",
+      "social_proof": "4.6M views on TikTok"
+    },
+    {
+      "id": "p010-pots-pans-rack",
+      "slug": "pots-and-pans-organizer-rack",
+      "name": "Adjustable pots & pans organizer rack (6-tier)",
+      "category": [
+        "organization",
+        "kitchen"
+      ],
+      "short_note": "An adjustable rack that turns a messy pan cabinet into neat tiers. The height and tiers adjust, and it fits pots up to 12 inches.",
+      "image": "img/products/p010-pots-pans-rack.webp",
+      "image_alt": "Blue pans stacked on a black adjustable rack inside a kitchen cabinet",
+      "link": "https://www.amazon.com/dp/B0DPKP52TH?tag=foundsite-20",
+      "added": "2026-11-19",
+      "headline": "The cabinet glow-up for your pots and pans",
+      "intro": "Instead of stacking pans on top of each other, this rack gives each one its own tier. The side rods extend so you can set the height for your cabinet, and the tiers move to fit different pan sizes. It's an easy fix before the holiday cooking starts.",
+      "why_we_like": [
+        "Every pan gets its own tier, so no more digging through a stack",
+        "Height adjusts from 14 to about 24.5 inches",
+        "Holds pots and pans up to 12 inches across",
+        "Pads on each tier help stop tipping and scratches",
+        "Works in a cabinet, on the counter or on the floor"
+      ],
+      "good_to_know": [
+        "Pans are not included; the ones in our video are just for show.",
+        "Measure the inside of your cabinet before ordering.",
+        "The maker lists 66 lbs total and 11 lbs per tier."
+      ],
+      "who_its_for": "Anyone whose pan cabinet is a mess, especially before a big holiday meal.",
+      "faq": [
+        {
+          "q": "Will it fit my cabinet?",
+          "a": "The height adjusts from 14 to about 24.5 inches. Measure your cabinet first."
+        },
+        {
+          "q": "Are the pans included?",
+          "a": "No. Only the rack is included."
+        },
+        {
+          "q": "How much can it hold?",
+          "a": "The listing says 66 lbs in total, or 11 lbs per tier."
+        }
+      ],
+      "video": "img/products/p010-pots-pans-rack.mp4",
+      "social_proof": "64M views on Instagram",
+      "featured": 4
+    },
+    {
+      "id": "p008-cup-lid-brush",
+      "slug": "cup-lid-cleaning-brush",
+      "name": "4-in-1 cup lid cleaning brush set (6-pack)",
+      "category": [
+        "cleaning",
+        "kitchen"
+      ],
+      "short_note": "A small folding brush made for tumbler lids: a rim brush, a stiff corner brush for the grooves, a soft brush and straw brushes.",
+      "image": "img/products/p008-cup-lid-brush.webp",
+      "image_alt": "Teal folding brush cleaning the grooves of a clear tumbler lid",
+      "link": "https://www.amazon.com/dp/B0F985YJZ4?tag=foundsite-20",
+      "added": "2026-11-20",
+      "headline": "Finally get the gunk out of tumbler lids",
+      "intro": "Tumbler lids have tiny grooves a sponge can't reach. This folding brush has a rim brush for the cup mouth, a stiff corner brush for the grooves, a soft brush for bottle nipples and a hook to pop out lid seals. The pack also comes with straw brushes.",
+      "why_we_like": [
+        "Four tools in one small folding brush",
+        "Stiff corner bristles reach into lid grooves",
+        "U-shaped rim brush for the mouth of the cup",
+        "Three straw brushes in different lengths",
+        "Folds small and has a loop to hang it up to dry"
+      ],
+      "good_to_know": [
+        "The pack is 3 lid brushes plus 3 straw brushes.",
+        "Colors in the pack may look different from the one in our video."
+      ],
+      "who_its_for": "Anyone who washes tumblers, travel mugs or baby bottles every day.",
+      "faq": [
+        {
+          "q": "What's in the pack?",
+          "a": "Three 4-in-1 lid brushes and three straw brushes (7.9, 9.8 and 11.8 inches)."
+        },
+        {
+          "q": "What can I clean with it?",
+          "a": "Tumbler and mug lids, cup rims, straws, baby bottles and other narrow containers."
+        }
+      ],
+      "video": "img/products/p008-cup-lid-brush.mp4",
+      "social_proof": "35.9M views on Instagram"
+    },
+    {
+      "id": "p009-spin-scrubber",
+      "slug": "electric-spin-scrubber",
+      "name": "Cordless electric spin scrubber with long handle",
+      "category": [
+        "cleaning"
+      ],
+      "short_note": "A cordless spin brush on an extendable handle, for tubs, showers, tile and grout without kneeling on the floor.",
+      "image": "img/products/p009-spin-scrubber.webp",
+      "image_alt": "White cordless spin scrubber cleaning a hexagon tile shower floor",
+      "link": "https://www.amazon.com/dp/B0B7RSV894?tag=foundsite-20",
+      "added": "2026-11-20",
+      "headline": "Stop scrubbing the tub on your knees",
+      "intro": "This is a rechargeable spin brush on a handle that extends, so you can reach the tub, the shower floor and the grout lines while standing up. Swap the brush heads for different surfaces and pick one of two speeds.",
+      "why_we_like": [
+        "Cordless and rechargeable",
+        "Handle extends to three lengths, so no bending or kneeling",
+        "Two speeds; hold the button to switch",
+        "Comes with several replaceable brush heads",
+        "Made for tubs, showers, tile, grout and sinks"
+      ],
+      "good_to_know": [
+        "The brush head can get wet, but don't put the whole handle in water.",
+        "The handle twists to retract; don't push it straight in."
+      ],
+      "who_its_for": "Anyone doing a holiday deep clean, or anyone whose back or knees hate scrubbing.",
+      "faq": [
+        {
+          "q": "Is it cordless?",
+          "a": "Yes, it's rechargeable. The listing says a full charge takes 2 to 3 hours."
+        },
+        {
+          "q": "How long is the handle?",
+          "a": "It adjusts to about 12, 43 or 54 inches."
+        },
+        {
+          "q": "Can it go in water?",
+          "a": "You can dip the brush head, but the maker says not to put the main body under water."
+        }
+      ],
+      "video": "img/products/p009-spin-scrubber.mp4",
+      "social_proof": "7.8M views on Instagram"
+    },
+    {
+      "id": "p013-better-breader",
+      "slug": "better-breader-bowl",
+      "name": "Cook's Choice XL Better Breader Bowl (16 in)",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Add the breadcrumbs, put the chicken on the sifter tray, close the lid and shake. Breading without the messy plates.",
+      "image": "img/products/p013-better-breader.webp",
+      "image_alt": "Chicken breasts on a blue sifter tray inside a white breading bowl",
+      "link": "https://www.amazon.com/dp/B000IN0KUO?tag=foundsite-20",
+      "added": "2026-11-21",
+      "headline": "Breading without the mess",
+      "intro": "This is a long bowl with a sifter tray and an airtight lid. Put your breading in the bowl, set the food on the tray, close the lid and shake. It's an easy way to bread chicken, fish or vegetables for a holiday meal without a counter full of plates.",
+      "why_we_like": [
+        "Extra-long 16-inch size fits tenders, fillets and pork chops",
+        "Shake with the lid on instead of using three messy plates",
+        "The sifter tray helps coat evenly and cuts down on clumps",
+        "Airtight lid lets you keep leftover breading",
+        "Dishwasher safe and BPA free, made in the USA"
+      ],
+      "good_to_know": [
+        "Lightly moisten the food first so the coating sticks.",
+        "It's big, so check you have room in a cabinet to store it."
+      ],
+      "who_its_for": "Anyone who fries or bakes breaded food and hates the cleanup, especially for Thanksgiving and holiday cooking.",
+      "faq": [
+        {
+          "q": "How does it work?",
+          "a": "Add breading to the bowl, put the food on the sifter tray, close the lid and shake."
+        },
+        {
+          "q": "Is it dishwasher safe?",
+          "a": "Yes, the listing says it's dishwasher safe."
+        },
+        {
+          "q": "What can I bread in it?",
+          "a": "The maker mentions chicken tenders, wings, fish, shrimp, pork chops, onion rings and vegetables."
+        }
+      ],
+      "video": "img/products/p013-better-breader.mp4",
+      "social_proof": "79M views on Instagram"
+    },
+    {
+      "id": "p014-ninja-slushi",
+      "slug": "ninja-slushi",
+      "name": "Ninja SLUSHi frozen drink maker (FS301)",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Pour in soda, juice or coffee, press a button, and it freezes the drink itself. No ice and no blender.",
+      "image": "img/products/p014-ninja-slushi.webp",
+      "image_alt": "Ninja SLUSHi machine on a kitchen counter",
+      "link": "https://www.amazon.com/dp/B0D2LZYQ2M?tag=foundsite-20",
+      "added": "2026-11-21",
+      "headline": "Turn your favorite soda into a slushie, no ice",
+      "intro": "The SLUSHi freezes the drink itself, so there's no ice to crush and no blender. Pour in a drink, pick one of the preset programs, and pull the handle when it's ready. It makes a fun centerpiece for a holiday party and a big gift.",
+      "why_we_like": [
+        "No ice and no blending: it chills the liquid itself",
+        "Five preset programs with one-touch start",
+        "Large 88-ounce vessel makes 7+ servings per batch",
+        "Keeps drinks frozen for hours (non-dairy recipes)",
+        "Dishwasher-safe parts and a removable drip tray"
+      ],
+      "good_to_know": [
+        "It isn't instant: the maker says drinks take 15 to 60 minutes.",
+        "Recipes need sugar or a recommended sugar substitute to slush properly.",
+        "It takes up counter space, so measure first."
+      ],
+      "who_its_for": "Families who love slushies, party hosts, and anyone looking for a big holiday gift.",
+      "faq": [
+        {
+          "q": "How long does a slushie take?",
+          "a": "The maker says 15 to 60 minutes, depending on the drink, amount and starting temperature."
+        },
+        {
+          "q": "Do I need ice?",
+          "a": "No. The machine freezes the liquid itself."
+        },
+        {
+          "q": "Does it work with sugar-free drinks?",
+          "a": "Not on their own. The maker recommends adding a sugar substitute."
+        }
+      ],
+      "video": "img/products/p014-ninja-slushi.mp4",
+      "social_proof": "80M views on Instagram"
+    },
+    {
+      "id": "p015-motion-lights",
+      "slug": "motion-sensor-stair-lights",
+      "name": "Rechargeable motion-sensor lights, gold (8-pack)",
+      "category": [
+        "decor",
+        "gifts"
+      ],
+      "short_note": "Thin gold lights that turn on when someone walks by. Stick them on stairs, in hallways or under cabinets.",
+      "image": "img/products/p015-motion-lights.webp",
+      "image_alt": "Gold motion-sensor lights glowing on a dark staircase",
+      "link": "https://www.amazon.com/dp/B0FP4NJQP4?tag=foundsite-20",
+      "added": "2026-11-22",
+      "headline": "No more dark stairs at night",
+      "intro": "These are slim, rechargeable lights with a motion sensor. Stick them along the stairs or under a cabinet, and they glow warm white when someone walks past, then switch off by themselves. Handy when holiday guests are finding their way at night.",
+      "why_we_like": [
+        "Turns on when it senses motion, then off again after about 15 seconds",
+        "Rechargeable battery, so no wiring",
+        "Warm white light that isn't harsh",
+        "Thin aluminum panel in gold",
+        "Magnet mount, with an adhesive plate for non-metal surfaces"
+      ],
+      "good_to_know": [
+        "No plug or remote is included; you recharge them.",
+        "The maker says 3 to 5 hours of light at full brightness per charge.",
+        "Night mode only works in the dark and at half brightness."
+      ],
+      "who_its_for": "Anyone with dark stairs or hallways, and hosts expecting overnight guests.",
+      "faq": [
+        {
+          "q": "How do they stick on?",
+          "a": "They're magnetic. For non-metal surfaces, stick the included adhesive plate first, then attach the light."
+        },
+        {
+          "q": "How far does the sensor reach?",
+          "a": "The listing says about 10 feet, at a 120-degree angle."
+        },
+        {
+          "q": "Do they need batteries?",
+          "a": "No, each light has a built-in rechargeable battery."
+        }
+      ],
+      "video": "img/products/p015-motion-lights.mp4",
+      "social_proof": "11.8M views on Instagram"
+    },
+    {
+      "id": "p016-meat-thermometer",
+      "slug": "meat-thermometer",
+      "name": "Alpha Grillers instant-read meat thermometer",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "A folding digital thermometer that gives a reading in 1 to 2 seconds, so you can stop cutting into the meat to check.",
+      "image": "img/products/p016-meat-thermometer.webp",
+      "image_alt": "Red folding meat thermometer over a steak on the grill",
+      "link": "https://www.amazon.com/dp/B00S93EQUK?tag=foundsite-20",
+      "added": "2026-11-23",
+      "headline": "Stop guessing if it's done",
+      "intro": "This is a folding instant-read thermometer. Push the probe into the meat and the backlit screen shows the temperature in a second or two, so you don't have to cut into the turkey or steak to check. It also arrives in a gift box.",
+      "why_we_like": [
+        "Reads in about 1 to 2 seconds",
+        "Large display with a bright blue backlight",
+        "Waterproof (IP67), so you can rinse it under the tap",
+        "Works for meat, liquids, deep-frying oil and candy",
+        "Arrives in a gift box"
+      ],
+      "good_to_know": [
+        "Check a trusted guide (like USDA) for the right safe temperature for each meat.",
+        "Clean the probe between uses."
+      ],
+      "who_its_for": "Anyone cooking the Thanksgiving turkey, grilling, or frying, and a handy stocking stuffer for the griller in the family.",
+      "faq": [
+        {
+          "q": "How fast does it read?",
+          "a": "The listing says 1 to 2 seconds."
+        },
+        {
+          "q": "Can I wash it?",
+          "a": "Yes. It's IP67 waterproof and can be rinsed under running water."
+        },
+        {
+          "q": "Is it only for meat?",
+          "a": "No. The listing says it also works for liquids, deep frying and candy making."
+        }
+      ],
+      "video": "img/products/p016-meat-thermometer.mp4",
+      "social_proof": "40.6K views on Instagram"
+    },
+    {
+      "id": "p017-vegetable-chopper",
+      "slug": "vegetable-chopper",
+      "name": "Fullstar Pro vegetable chopper and spiralizer",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Press once and an onion is diced straight into the container. A chopper and spiralizer in one, with the blades stored inside.",
+      "image": "img/products/p017-vegetable-chopper.webp",
+      "image_alt": "Tomatoes on the dicing grid of a white vegetable chopper",
+      "link": "https://www.amazon.com/dp/B0764HS4SL?tag=foundsite-20",
+      "added": "2026-11-24",
+      "headline": "Dice a whole onion in one press",
+      "intro": "Put the vegetable on the grid, press the lid down, and it drops diced into the 5-cup container underneath. It also spiralizes zucchini, and all the blades store inside the container. Useful when there's a mountain of holiday prep.",
+      "why_we_like": [
+        "Dices onions, carrots, celery and peppers",
+        "Also spiralizes zucchini",
+        "5-cup container catches everything",
+        "Blades store inside the container",
+        "Top-rack dishwasher safe, with a cleaning brush included"
+      ],
+      "good_to_know": [
+        "The blades are sharp: handle them with care when cleaning.",
+        "Soft foods work best cut into pieces that fit the grid."
+      ],
+      "who_its_for": "Home cooks who meal-prep or host big dinners, and anyone who hates chopping onions.",
+      "faq": [
+        {
+          "q": "Is it dishwasher safe?",
+          "a": "Yes, on the top rack, according to the listing."
+        },
+        {
+          "q": "Where do the blades go?",
+          "a": "They store inside the container."
+        },
+        {
+          "q": "Can it make zucchini noodles?",
+          "a": "Yes, it includes a spiralizer."
+        }
+      ],
+      "video": "img/products/p017-vegetable-chopper.mp4",
+      "social_proof": "253.3K views on Instagram"
+    },
+    {
+      "id": "p020-oxo-fat-separator",
+      "slug": "oxo-fat-separator",
+      "name": "OXO Good Grips Good Gravy fat separator, 4 cup",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Pour in the pan drippings, and the gravy releases from the bottom while the fat stays behind. Made for Thanksgiving gravy.",
+      "image": "img/products/p020-oxo-fat-separator.webp",
+      "image_alt": "Gravy releasing from the bottom of a fat separator into a bowl",
+      "link": "https://www.amazon.com/dp/B071F2ZM15?tag=foundsite-20",
+      "added": "2026-11-23",
+      "headline": "Greasy gravy? Pour from the bottom",
+      "intro": "Pour the turkey drippings through the built-in strainer. The fat rises, and when you squeeze the handle the gravy releases from the bottom and the fat stays behind. Leaner gravy, soups and sauces without skimming.",
+      "why_we_like": [
+        "Releases liquid from the bottom and leaves the fat behind",
+        "Built-in strainer catches the bits",
+        "Silicone shut-off valve to prevent leaks",
+        "Measurement markings in cups, ounces and milliliters",
+        "4-cup capacity"
+      ],
+      "good_to_know": [
+        "Let the fat settle for a moment before you release the gravy."
+      ],
+      "who_its_for": "Whoever makes the gravy every holiday, and anyone who makes soups and sauces from pan drippings.",
+      "faq": [
+        {
+          "q": "How big is it?",
+          "a": "It holds 4 cups."
+        },
+        {
+          "q": "Does it strain out bits?",
+          "a": "Yes, it has a built-in strainer."
+        },
+        {
+          "q": "How does the fat stay behind?",
+          "a": "The liquid releases from the bottom, so the fat that sits on top stays in the cup."
+        }
+      ],
+      "video": "img/products/p020-oxo-fat-separator.mp4",
+      "social_proof": "641K views on Instagram"
+    },
+    {
+      "id": "p021-roll-up-dish-rack",
+      "slug": "roll-up-dish-rack",
+      "name": "Seropy roll-up dish drying rack, over the sink",
+      "category": [
+        "organization",
+        "kitchen"
+      ],
+      "short_note": "A stainless steel rack that rolls out over the sink for drying dishes or rinsing vegetables, then rolls up for storage.",
+      "image": "img/products/p021-roll-up-dish-rack.webp",
+      "image_alt": "Roll-up dish drying rack laid over a kitchen sink",
+      "link": "https://www.amazon.com/dp/B08S6M3NXV?tag=foundsite-20",
+      "added": "2026-11-24",
+      "headline": "More counter space, right over the sink",
+      "intro": "Roll it out across the sink and you have a drying spot for dishes, a place to rinse vegetables, or a trivet for a hot pan. When you're done, roll it up and put it away. Handy when holiday dishes pile up.",
+      "why_we_like": [
+        "304 stainless steel tubes",
+        "Holds up to 33 lbs",
+        "Heat resistant up to 400F, so it works as a trivet",
+        "Rolls up for storage",
+        "Dishwasher safe"
+      ],
+      "good_to_know": [
+        "Measure your sink first. It comes in several sizes."
+      ],
+      "who_its_for": "Anyone with a small kitchen or not much counter space, and hosts with a sink full of holiday dishes.",
+      "faq": [
+        {
+          "q": "Will it fit my sink?",
+          "a": "It comes in several sizes. Measure your sink and pick the one that spans it."
+        },
+        {
+          "q": "Can I put a hot pan on it?",
+          "a": "The listing says it's heat resistant up to 400F, so it can work as a trivet."
+        },
+        {
+          "q": "How much weight can it hold?",
+          "a": "Up to 33 lbs, according to the listing."
+        }
+      ],
+      "video": "img/products/p021-roll-up-dish-rack.mp4"
+    },
+    {
+      "id": "p019-whisk-wiper",
+      "slug": "whisk-wiper",
+      "name": "Whisk Wiper PRO for stand mixers",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Slide it onto the stand-mixer whisk and pull: the frosting and batter come off in seconds and drips stay off the counter.",
+      "image": "img/products/p019-whisk-wiper.webp",
+      "image_alt": "Clear Whisk Wiper on a stand mixer whisk",
+      "link": "https://www.amazon.com/dp/B07796MWGN?tag=foundsite-20",
+      "added": "2026-11-24",
+      "headline": "Frosting stuck in the whisk? One pull",
+      "intro": "Getting frosting out of a stand-mixer whisk is messy. This clear wiper fits on the whisk, and one pull wipes it clean. Its shape also scrapes the bowl, and it catches drips when you set the whisk down.",
+      "why_we_like": [
+        "Wipes the whisk and bowl in seconds",
+        "Catches drips when it stands on the counter",
+        "Shaped to clean the mixer bowl too",
+        "Made for KitchenAid tilt-head 4.5 and 5 quart mixers"
+      ],
+      "good_to_know": [
+        "Hand wash only, and keep it away from high heat.",
+        "Check your mixer model: this version is for KitchenAid tilt-head 4.5 and 5 quart."
+      ],
+      "who_its_for": "Bakers with a KitchenAid tilt-head stand mixer, and a small gift for the friend who bakes every holiday.",
+      "faq": [
+        {
+          "q": "Which mixers does it fit?",
+          "a": "The listing says KitchenAid tilt-head stand mixers, 4.5 and 5 quart."
+        },
+        {
+          "q": "Is it dishwasher safe?",
+          "a": "No, the listing says hand wash only."
+        }
+      ],
+      "video": "img/products/p019-whisk-wiper.mp4",
+      "social_proof": "4.4M views on Instagram"
     }
-   ],
-   "social_proof": "190M views on Instagram",
-   "video": "img/products/p005-chicken-shredder.mp4"
-  },
-  {
-   "id": "p006-ninja-prepi",
-   "slug": "ninja-prepi",
-   "name": "Ninja PREPi 5-in-1 Prep & Store System (PN301)",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "Slices, shreds, crinkle-cuts, chops and purees straight into a bowl, then the same bowl gets a lid and goes in the fridge.",
-   "image": "img/products/p006-ninja-prepi.webp",
-   "image_alt": "Ninja PREPi base on a counter with a bowl of fresh guacamole",
-   "link": "https://www.amazon.com/dp/B0HFT8YPHR?tag=foundsite-20",
-   "added": "2026-11-17",
-   "headline": "Ninja PREPi: prep it and store it in the same bowl",
-   "intro": "The PREPi is a compact 500-watt base with a feed chute and discs that slice, shred and crinkle-cut right into the bowl underneath. Swap in the blade and it chops or purees. When you're done, snap a lid on the bowl and put it straight in the fridge.",
-   "why_we_like": [
-    "Five jobs in one: crinkle cut, chop, puree, slice and shred",
-    "Food goes straight into the bowl, so there's less to wash",
-    "Two bowls (5-cup and 7-cup), each with its own storage lid",
-    "One reversible disc: slice on one side, shred on the other",
-    "Compact base that doesn't take over the counter"
-   ],
-   "good_to_know": [
-    "It's a prep machine, not a blender for drinks.",
-    "Check the parts list on the listing so you know which discs come in the box."
-   ],
-   "who_its_for": "Meal-preppers, busy families and anyone cooking a big holiday meal. Also a nice gift for someone who loves to cook.",
-   "faq": [
-    {
-     "q": "What does 5-in-1 mean?",
-     "a": "It crinkle-cuts, chops, purees, slices and shreds, using the included blade and discs."
-    },
-    {
-     "q": "Can I store food in the bowl?",
-     "a": "Yes. Both bowls come with storage lids, so you can prep, cover and put the bowl in the fridge."
-    },
-    {
-     "q": "What sizes are the bowls?",
-     "a": "One 5-cup bowl and one 7-cup bowl."
-    }
-   ],
-   "social_proof": "1.5M views on TikTok",
-   "video": "img/products/p006-ninja-prepi.mp4"
-  },
-  {
-   "id": "p004-the-pink-stuff",
-   "slug": "the-pink-stuff-paste",
-   "name": "The Pink Stuff cleaning paste",
-   "category": [
-    "cleaning"
-   ],
-   "short_note": "One pink paste for tiles, sinks, glass, window frames and garden furniture. Wipe it on with a damp sponge and rinse it off.",
-   "image": "img/products/p004-the-pink-stuff.webp",
-   "image_alt": "Tub of The Pink Stuff paste next to a shower tray being scrubbed",
-   "link": "https://www.amazon.com/dp/B00DU5SRIY?tag=foundsite-20",
-   "added": "2026-11-17",
-   "headline": "One pink paste, lots of cleaning jobs",
-   "intro": "The Pink Stuff is a cleaning paste you work in with a damp cloth or sponge and then rinse away. The brand suggests it for kitchens, bathrooms and outdoor surfaces. It's a good one to grab before holiday guests arrive.",
-   "why_we_like": [
-    "One tub for many spots: sinks, tiles, grout, glass and stovetops",
-    "Also suggested for window frames (uPVC) and garden furniture",
-    "Simple to use: damp sponge, work it in, rinse",
-    "The brand describes it as non-scratch on stainless steel, ceramic, porcelain and glass"
-   ],
-   "good_to_know": [
-    "It's an abrasive paste, so try a small hidden spot first on anything delicate.",
-    "Rinse well after cleaning."
-   ],
-   "who_its_for": "Anyone doing a deep clean, especially before guests come over for the holidays.",
-   "faq": [
-    {
-     "q": "How do I use it?",
-     "a": "Put a little on a damp cloth or sponge, work it into the surface, then rinse clean."
-    },
-    {
-     "q": "Where can I use it?",
-     "a": "The listing mentions sinks, tiles, grout, glass, stovetops, ovens, uPVC window frames and garden furniture."
-    }
-   ],
-   "social_proof": "23M views on TikTok",
-   "video": "img/products/p004-the-pink-stuff.mp4"
-  },
-  {
-   "id": "p007-egg-separator",
-   "slug": "basketball-egg-separator",
-   "name": "OTOTO Dunk N' Egg basketball yolk separator",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "A tiny basketball hoop for your bowl: crack the egg over it, the white drops through and the yolk stays in the net.",
-   "image": "img/products/p007-egg-separator.webp",
-   "image_alt": "Basketball hoop egg separator on a glass bowl next to a dish of yolks",
-   "link": "https://www.amazon.com/dp/B0C6MZYRFG?tag=foundsite-20",
-   "added": "2026-11-17",
-   "headline": "Separating eggs just became a game",
-   "intro": "Dunk N' Egg is a yolk separator shaped like a basketball hoop. Crack an egg over the net, the white falls into the bowl and the yolk stays behind. It's useful for holiday baking and makes a fun small gift.",
-   "why_we_like": [
-    "Separates yolk from white without passing it between shells",
-    "Fun basketball design that gets a laugh",
-    "The maker also suggests it for poached eggs, meringues and portion control",
-    "Rinses clean under warm water"
-   ],
-   "good_to_know": [
-    "It's a small, single-purpose gadget, so think of it as a fun extra.",
-    "Comes in a couple of colour options; ours is white and orange."
-   ],
-   "who_its_for": "Bakers, kids helping in the kitchen, and basketball fans. A good stocking stuffer.",
-   "faq": [
-    {
-     "q": "How does it work?",
-     "a": "Crack the egg over the hoop. The white drips through into the bowl and the yolk stays in the net."
-    },
-    {
-     "q": "How do I clean it?",
-     "a": "The listing says to rinse it under warm water."
-    }
-   ],
-   "social_proof": "82M views on Instagram",
-   "video": "img/products/p007-egg-separator.mp4"
-  },
-  {
-   "id": "p012-garland-hooks",
-   "slug": "christmas-garland-hangers",
-   "name": "Silicone Christmas garland hangers (24 pcs, brown)",
-   "category": [
-    "decor",
-    "gifts"
-   ],
-   "short_note": "Stick the base down, press, wait ten seconds, then strap the garland in. Made for mantels, stair rails and shelves, with no drilling.",
-   "image": "img/products/p012-garland-hooks.webp",
-   "image_alt": "Console table decorated with a green garland held by brown silicone hangers",
-   "link": "https://www.amazon.com/dp/B0FVXFHNZ5?tag=foundsite-20",
-   "added": "2026-11-18",
-   "headline": "Hang Christmas garland without drilling",
-   "intro": "These are stretchy silicone straps with a self-adhesive base. You stick the base where you want the garland, press it hard, wait a few seconds, and loop the strap around the garland. It's a simple way to dress a mantel, a stair rail or a shelf for the holidays.",
-   "why_we_like": [
-    "No drilling or nails: a self-adhesive base plus a silicone strap",
-    "24 hangers in the pack, enough for a long garland",
-    "Stretchy silicone that wraps around thick garland",
-    "Brown color that blends in with the greenery",
-    "Also handy as general clips and bundlers around the house"
-   ],
-   "good_to_know": [
-    "Clean the spot first, press hard and wait at least ten seconds before hanging, as the maker says.",
-    "Our video shows a console table; the maker lists mantels, stair rails, banisters and shelves.",
-    "Try one on your surface first before doing the whole run."
-   ],
-   "who_its_for": "Anyone decorating for Christmas who doesn't want holes in the mantel or stair rail.",
-   "faq": [
-    {
-     "q": "Do I need tools?",
-     "a": "No. The base is self-adhesive and the strap loops around the garland."
-    },
-    {
-     "q": "How do I put them up?",
-     "a": "Clean the spot, peel the backing, press hard, wait about ten seconds, then loop the strap around the garland and fasten it."
-    },
-    {
-     "q": "How many are in the pack?",
-     "a": "24 brown silicone hangers, each about 7.9 inches long."
-    }
-   ],
-   "video": "img/products/p012-garland-hooks.mp4",
-   "social_proof": "4.6M views on TikTok"
-  },
-  {
-   "id": "p010-pots-pans-rack",
-   "slug": "pots-and-pans-organizer-rack",
-   "name": "Adjustable pots & pans organizer rack (6-tier)",
-   "category": [
-    "organization",
-    "kitchen"
-   ],
-   "short_note": "An adjustable rack that turns a messy pan cabinet into neat tiers. The height and tiers adjust, and it fits pots up to 12 inches.",
-   "image": "img/products/p010-pots-pans-rack.webp",
-   "image_alt": "Blue pans stacked on a black adjustable rack inside a kitchen cabinet",
-   "link": "https://www.amazon.com/dp/B0DPKP52TH?tag=foundsite-20",
-   "added": "2026-11-19",
-   "headline": "The cabinet glow-up for your pots and pans",
-   "intro": "Instead of stacking pans on top of each other, this rack gives each one its own tier. The side rods extend so you can set the height for your cabinet, and the tiers move to fit different pan sizes. It's an easy fix before the holiday cooking starts.",
-   "why_we_like": [
-    "Every pan gets its own tier, so no more digging through a stack",
-    "Height adjusts from 14 to about 24.5 inches",
-    "Holds pots and pans up to 12 inches across",
-    "Pads on each tier help stop tipping and scratches",
-    "Works in a cabinet, on the counter or on the floor"
-   ],
-   "good_to_know": [
-    "Pans are not included; the ones in our video are just for show.",
-    "Measure the inside of your cabinet before ordering.",
-    "The maker lists 66 lbs total and 11 lbs per tier."
-   ],
-   "who_its_for": "Anyone whose pan cabinet is a mess, especially before a big holiday meal.",
-   "faq": [
-    {
-     "q": "Will it fit my cabinet?",
-     "a": "The height adjusts from 14 to about 24.5 inches. Measure your cabinet first."
-    },
-    {
-     "q": "Are the pans included?",
-     "a": "No. Only the rack is included."
-    },
-    {
-     "q": "How much can it hold?",
-     "a": "The listing says 66 lbs in total, or 11 lbs per tier."
-    }
-   ],
-   "video": "img/products/p010-pots-pans-rack.mp4",
-   "social_proof": "64M views on Instagram"
-  },
-  {
-   "id": "p008-cup-lid-brush",
-   "slug": "cup-lid-cleaning-brush",
-   "name": "4-in-1 cup lid cleaning brush set (6-pack)",
-   "category": [
-    "cleaning",
-    "kitchen"
-   ],
-   "short_note": "A small folding brush made for tumbler lids: a rim brush, a stiff corner brush for the grooves, a soft brush and straw brushes.",
-   "image": "img/products/p008-cup-lid-brush.webp",
-   "image_alt": "Teal folding brush cleaning the grooves of a clear tumbler lid",
-   "link": "https://www.amazon.com/dp/B0F985YJZ4?tag=foundsite-20",
-   "added": "2026-11-20",
-   "headline": "Finally get the gunk out of tumbler lids",
-   "intro": "Tumbler lids have tiny grooves a sponge can't reach. This folding brush has a rim brush for the cup mouth, a stiff corner brush for the grooves, a soft brush for bottle nipples and a hook to pop out lid seals. The pack also comes with straw brushes.",
-   "why_we_like": [
-    "Four tools in one small folding brush",
-    "Stiff corner bristles reach into lid grooves",
-    "U-shaped rim brush for the mouth of the cup",
-    "Three straw brushes in different lengths",
-    "Folds small and has a loop to hang it up to dry"
-   ],
-   "good_to_know": [
-    "The pack is 3 lid brushes plus 3 straw brushes.",
-    "Colors in the pack may look different from the one in our video."
-   ],
-   "who_its_for": "Anyone who washes tumblers, travel mugs or baby bottles every day.",
-   "faq": [
-    {
-     "q": "What's in the pack?",
-     "a": "Three 4-in-1 lid brushes and three straw brushes (7.9, 9.8 and 11.8 inches)."
-    },
-    {
-     "q": "What can I clean with it?",
-     "a": "Tumbler and mug lids, cup rims, straws, baby bottles and other narrow containers."
-    }
-   ],
-   "video": "img/products/p008-cup-lid-brush.mp4",
-   "social_proof": "35.9M views on Instagram"
-  },
-  {
-   "id": "p009-spin-scrubber",
-   "slug": "electric-spin-scrubber",
-   "name": "Cordless electric spin scrubber with long handle",
-   "category": [
-    "cleaning"
-   ],
-   "short_note": "A cordless spin brush on an extendable handle, for tubs, showers, tile and grout without kneeling on the floor.",
-   "image": "img/products/p009-spin-scrubber.webp",
-   "image_alt": "White cordless spin scrubber cleaning a hexagon tile shower floor",
-   "link": "https://www.amazon.com/dp/B0B7RSV894?tag=foundsite-20",
-   "added": "2026-11-20",
-   "headline": "Stop scrubbing the tub on your knees",
-   "intro": "This is a rechargeable spin brush on a handle that extends, so you can reach the tub, the shower floor and the grout lines while standing up. Swap the brush heads for different surfaces and pick one of two speeds.",
-   "why_we_like": [
-    "Cordless and rechargeable",
-    "Handle extends to three lengths, so no bending or kneeling",
-    "Two speeds; hold the button to switch",
-    "Comes with several replaceable brush heads",
-    "Made for tubs, showers, tile, grout and sinks"
-   ],
-   "good_to_know": [
-    "The brush head can get wet, but don't put the whole handle in water.",
-    "The handle twists to retract; don't push it straight in."
-   ],
-   "who_its_for": "Anyone doing a holiday deep clean, or anyone whose back or knees hate scrubbing.",
-   "faq": [
-    {
-     "q": "Is it cordless?",
-     "a": "Yes, it's rechargeable. The listing says a full charge takes 2 to 3 hours."
-    },
-    {
-     "q": "How long is the handle?",
-     "a": "It adjusts to about 12, 43 or 54 inches."
-    },
-    {
-     "q": "Can it go in water?",
-     "a": "You can dip the brush head, but the maker says not to put the main body under water."
-    }
-   ],
-   "video": "img/products/p009-spin-scrubber.mp4",
-   "social_proof": "7.8M views on Instagram"
-  },
-  {
-   "id": "p013-better-breader",
-   "slug": "better-breader-bowl",
-   "name": "Cook's Choice XL Better Breader Bowl (16 in)",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "Add the breadcrumbs, put the chicken on the sifter tray, close the lid and shake. Breading without the messy plates.",
-   "image": "img/products/p013-better-breader.webp",
-   "image_alt": "Chicken breasts on a blue sifter tray inside a white breading bowl",
-   "link": "https://www.amazon.com/dp/B000IN0KUO?tag=foundsite-20",
-   "added": "2026-11-21",
-   "headline": "Breading without the mess",
-   "intro": "This is a long bowl with a sifter tray and an airtight lid. Put your breading in the bowl, set the food on the tray, close the lid and shake. It's an easy way to bread chicken, fish or vegetables for a holiday meal without a counter full of plates.",
-   "why_we_like": [
-    "Extra-long 16-inch size fits tenders, fillets and pork chops",
-    "Shake with the lid on instead of using three messy plates",
-    "The sifter tray helps coat evenly and cuts down on clumps",
-    "Airtight lid lets you keep leftover breading",
-    "Dishwasher safe and BPA free, made in the USA"
-   ],
-   "good_to_know": [
-    "Lightly moisten the food first so the coating sticks.",
-    "It's big, so check you have room in a cabinet to store it."
-   ],
-   "who_its_for": "Anyone who fries or bakes breaded food and hates the cleanup, especially for Thanksgiving and holiday cooking.",
-   "faq": [
-    {
-     "q": "How does it work?",
-     "a": "Add breading to the bowl, put the food on the sifter tray, close the lid and shake."
-    },
-    {
-     "q": "Is it dishwasher safe?",
-     "a": "Yes, the listing says it's dishwasher safe."
-    },
-    {
-     "q": "What can I bread in it?",
-     "a": "The maker mentions chicken tenders, wings, fish, shrimp, pork chops, onion rings and vegetables."
-    }
-   ],
-   "video": "img/products/p013-better-breader.mp4",
-   "social_proof": "79M views on Instagram"
-  },
-  {
-   "id": "p014-ninja-slushi",
-   "slug": "ninja-slushi",
-   "name": "Ninja SLUSHi frozen drink maker (FS301)",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "Pour in soda, juice or coffee, press a button, and it freezes the drink itself. No ice and no blender.",
-   "image": "img/products/p014-ninja-slushi.webp",
-   "image_alt": "Ninja SLUSHi machine on a kitchen counter",
-   "link": "https://www.amazon.com/dp/B0D2LZYQ2M?tag=foundsite-20",
-   "added": "2026-11-21",
-   "headline": "Turn your favorite soda into a slushie, no ice",
-   "intro": "The SLUSHi freezes the drink itself, so there's no ice to crush and no blender. Pour in a drink, pick one of the preset programs, and pull the handle when it's ready. It makes a fun centerpiece for a holiday party and a big gift.",
-   "why_we_like": [
-    "No ice and no blending: it chills the liquid itself",
-    "Five preset programs with one-touch start",
-    "Large 88-ounce vessel makes 7+ servings per batch",
-    "Keeps drinks frozen for hours (non-dairy recipes)",
-    "Dishwasher-safe parts and a removable drip tray"
-   ],
-   "good_to_know": [
-    "It isn't instant: the maker says drinks take 15 to 60 minutes.",
-    "Recipes need sugar or a recommended sugar substitute to slush properly.",
-    "It takes up counter space, so measure first."
-   ],
-   "who_its_for": "Families who love slushies, party hosts, and anyone looking for a big holiday gift.",
-   "faq": [
-    {
-     "q": "How long does a slushie take?",
-     "a": "The maker says 15 to 60 minutes, depending on the drink, amount and starting temperature."
-    },
-    {
-     "q": "Do I need ice?",
-     "a": "No. The machine freezes the liquid itself."
-    },
-    {
-     "q": "Does it work with sugar-free drinks?",
-     "a": "Not on their own. The maker recommends adding a sugar substitute."
-    }
-   ],
-   "video": "img/products/p014-ninja-slushi.mp4",
-   "social_proof": "80M views on Instagram"
-  },
-  {
-   "id": "p015-motion-lights",
-   "slug": "motion-sensor-stair-lights",
-   "name": "Rechargeable motion-sensor lights, gold (8-pack)",
-   "category": [
-    "decor",
-    "gifts"
-   ],
-   "short_note": "Thin gold lights that turn on when someone walks by. Stick them on stairs, in hallways or under cabinets.",
-   "image": "img/products/p015-motion-lights.webp",
-   "image_alt": "Gold motion-sensor lights glowing on a dark staircase",
-   "link": "https://www.amazon.com/dp/B0FP4NJQP4?tag=foundsite-20",
-   "added": "2026-11-22",
-   "headline": "No more dark stairs at night",
-   "intro": "These are slim, rechargeable lights with a motion sensor. Stick them along the stairs or under a cabinet, and they glow warm white when someone walks past, then switch off by themselves. Handy when holiday guests are finding their way at night.",
-   "why_we_like": [
-    "Turns on when it senses motion, then off again after about 15 seconds",
-    "Rechargeable battery, so no wiring",
-    "Warm white light that isn't harsh",
-    "Thin aluminum panel in gold",
-    "Magnet mount, with an adhesive plate for non-metal surfaces"
-   ],
-   "good_to_know": [
-    "No plug or remote is included; you recharge them.",
-    "The maker says 3 to 5 hours of light at full brightness per charge.",
-    "Night mode only works in the dark and at half brightness."
-   ],
-   "who_its_for": "Anyone with dark stairs or hallways, and hosts expecting overnight guests.",
-   "faq": [
-    {
-     "q": "How do they stick on?",
-     "a": "They're magnetic. For non-metal surfaces, stick the included adhesive plate first, then attach the light."
-    },
-    {
-     "q": "How far does the sensor reach?",
-     "a": "The listing says about 10 feet, at a 120-degree angle."
-    },
-    {
-     "q": "Do they need batteries?",
-     "a": "No, each light has a built-in rechargeable battery."
-    }
-   ],
-   "video": "img/products/p015-motion-lights.mp4",
-   "social_proof": "11.8M views on Instagram"
-  },
-  {
-   "id": "p016-meat-thermometer",
-   "slug": "meat-thermometer",
-   "name": "Alpha Grillers instant-read meat thermometer",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "A folding digital thermometer that gives a reading in 1 to 2 seconds, so you can stop cutting into the meat to check.",
-   "image": "img/products/p016-meat-thermometer.webp",
-   "image_alt": "Red folding meat thermometer over a steak on the grill",
-   "link": "https://www.amazon.com/dp/B00S93EQUK?tag=foundsite-20",
-   "added": "2026-11-23",
-   "headline": "Stop guessing if it's done",
-   "intro": "This is a folding instant-read thermometer. Push the probe into the meat and the backlit screen shows the temperature in a second or two, so you don't have to cut into the turkey or steak to check. It also arrives in a gift box.",
-   "why_we_like": [
-    "Reads in about 1 to 2 seconds",
-    "Large display with a bright blue backlight",
-    "Waterproof (IP67), so you can rinse it under the tap",
-    "Works for meat, liquids, deep-frying oil and candy",
-    "Arrives in a gift box"
-   ],
-   "good_to_know": [
-    "Check a trusted guide (like USDA) for the right safe temperature for each meat.",
-    "Clean the probe between uses."
-   ],
-   "who_its_for": "Anyone cooking the Thanksgiving turkey, grilling, or frying, and a handy stocking stuffer for the griller in the family.",
-   "faq": [
-    {
-     "q": "How fast does it read?",
-     "a": "The listing says 1 to 2 seconds."
-    },
-    {
-     "q": "Can I wash it?",
-     "a": "Yes. It's IP67 waterproof and can be rinsed under running water."
-    },
-    {
-     "q": "Is it only for meat?",
-     "a": "No. The listing says it also works for liquids, deep frying and candy making."
-    }
-   ],
-   "video": "img/products/p016-meat-thermometer.mp4",
-   "social_proof": "40.6K views on Instagram"
-  },
-  {
-   "id": "p017-vegetable-chopper",
-   "slug": "vegetable-chopper",
-   "name": "Fullstar Pro vegetable chopper and spiralizer",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "Press once and an onion is diced straight into the container. A chopper and spiralizer in one, with the blades stored inside.",
-   "image": "img/products/p017-vegetable-chopper.webp",
-   "image_alt": "Tomatoes on the dicing grid of a white vegetable chopper",
-   "link": "https://www.amazon.com/dp/B0764HS4SL?tag=foundsite-20",
-   "added": "2026-11-24",
-   "headline": "Dice a whole onion in one press",
-   "intro": "Put the vegetable on the grid, press the lid down, and it drops diced into the 5-cup container underneath. It also spiralizes zucchini, and all the blades store inside the container. Useful when there's a mountain of holiday prep.",
-   "why_we_like": [
-    "Dices onions, carrots, celery and peppers",
-    "Also spiralizes zucchini",
-    "5-cup container catches everything",
-    "Blades store inside the container",
-    "Top-rack dishwasher safe, with a cleaning brush included"
-   ],
-   "good_to_know": [
-    "The blades are sharp: handle them with care when cleaning.",
-    "Soft foods work best cut into pieces that fit the grid."
-   ],
-   "who_its_for": "Home cooks who meal-prep or host big dinners, and anyone who hates chopping onions.",
-   "faq": [
-    {
-     "q": "Is it dishwasher safe?",
-     "a": "Yes, on the top rack, according to the listing."
-    },
-    {
-     "q": "Where do the blades go?",
-     "a": "They store inside the container."
-    },
-    {
-     "q": "Can it make zucchini noodles?",
-     "a": "Yes, it includes a spiralizer."
-    }
-   ],
-   "video": "img/products/p017-vegetable-chopper.mp4",
-   "social_proof": "253.3K views on Instagram"
-  },
-  {
-   "id": "p020-oxo-fat-separator",
-   "slug": "oxo-fat-separator",
-   "name": "OXO Good Grips Good Gravy fat separator, 4 cup",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "Pour in the pan drippings, and the gravy releases from the bottom while the fat stays behind. Made for Thanksgiving gravy.",
-   "image": "img/products/p020-oxo-fat-separator.webp",
-   "image_alt": "Gravy releasing from the bottom of a fat separator into a bowl",
-   "link": "https://www.amazon.com/dp/B071F2ZM15?tag=foundsite-20",
-   "added": "2026-11-23",
-   "headline": "Greasy gravy? Pour from the bottom",
-   "intro": "Pour the turkey drippings through the built-in strainer. The fat rises, and when you squeeze the handle the gravy releases from the bottom and the fat stays behind. Leaner gravy, soups and sauces without skimming.",
-   "why_we_like": [
-    "Releases liquid from the bottom and leaves the fat behind",
-    "Built-in strainer catches the bits",
-    "Silicone shut-off valve to prevent leaks",
-    "Measurement markings in cups, ounces and milliliters",
-    "4-cup capacity"
-   ],
-   "good_to_know": [
-    "Let the fat settle for a moment before you release the gravy."
-   ],
-   "who_its_for": "Whoever makes the gravy every holiday, and anyone who makes soups and sauces from pan drippings.",
-   "faq": [
-    {
-     "q": "How big is it?",
-     "a": "It holds 4 cups."
-    },
-    {
-     "q": "Does it strain out bits?",
-     "a": "Yes, it has a built-in strainer."
-    },
-    {
-     "q": "How does the fat stay behind?",
-     "a": "The liquid releases from the bottom, so the fat that sits on top stays in the cup."
-    }
-   ],
-   "video": "img/products/p020-oxo-fat-separator.mp4",
-   "social_proof": "641K views on Instagram"
-  },
-  {
-   "id": "p021-roll-up-dish-rack",
-   "slug": "roll-up-dish-rack",
-   "name": "Seropy roll-up dish drying rack, over the sink",
-   "category": [
-    "organization",
-    "kitchen"
-   ],
-   "short_note": "A stainless steel rack that rolls out over the sink for drying dishes or rinsing vegetables, then rolls up for storage.",
-   "image": "img/products/p021-roll-up-dish-rack.webp",
-   "image_alt": "Roll-up dish drying rack laid over a kitchen sink",
-   "link": "https://www.amazon.com/dp/B08S6M3NXV?tag=foundsite-20",
-   "added": "2026-11-24",
-   "headline": "More counter space, right over the sink",
-   "intro": "Roll it out across the sink and you have a drying spot for dishes, a place to rinse vegetables, or a trivet for a hot pan. When you're done, roll it up and put it away. Handy when holiday dishes pile up.",
-   "why_we_like": [
-    "304 stainless steel tubes",
-    "Holds up to 33 lbs",
-    "Heat resistant up to 400F, so it works as a trivet",
-    "Rolls up for storage",
-    "Dishwasher safe"
-   ],
-   "good_to_know": [
-    "Measure your sink first. It comes in several sizes."
-   ],
-   "who_its_for": "Anyone with a small kitchen or not much counter space, and hosts with a sink full of holiday dishes.",
-   "faq": [
-    {
-     "q": "Will it fit my sink?",
-     "a": "It comes in several sizes. Measure your sink and pick the one that spans it."
-    },
-    {
-     "q": "Can I put a hot pan on it?",
-     "a": "The listing says it's heat resistant up to 400F, so it can work as a trivet."
-    },
-    {
-     "q": "How much weight can it hold?",
-     "a": "Up to 33 lbs, according to the listing."
-    }
-   ],
-   "video": "img/products/p021-roll-up-dish-rack.mp4"
-  },
-  {
-   "id": "p019-whisk-wiper",
-   "slug": "whisk-wiper",
-   "name": "Whisk Wiper PRO for stand mixers",
-   "category": [
-    "kitchen",
-    "gifts"
-   ],
-   "short_note": "Slide it onto the stand-mixer whisk and pull: the frosting and batter come off in seconds and drips stay off the counter.",
-   "image": "img/products/p019-whisk-wiper.webp",
-   "image_alt": "Clear Whisk Wiper on a stand mixer whisk",
-   "link": "https://www.amazon.com/dp/B07796MWGN?tag=foundsite-20",
-   "added": "2026-11-24",
-   "headline": "Frosting stuck in the whisk? One pull",
-   "intro": "Getting frosting out of a stand-mixer whisk is messy. This clear wiper fits on the whisk, and one pull wipes it clean. Its shape also scrapes the bowl, and it catches drips when you set the whisk down.",
-   "why_we_like": [
-    "Wipes the whisk and bowl in seconds",
-    "Catches drips when it stands on the counter",
-    "Shaped to clean the mixer bowl too",
-    "Made for KitchenAid tilt-head 4.5 and 5 quart mixers"
-   ],
-   "good_to_know": [
-    "Hand wash only, and keep it away from high heat.",
-    "Check your mixer model: this version is for KitchenAid tilt-head 4.5 and 5 quart."
-   ],
-   "who_its_for": "Bakers with a KitchenAid tilt-head stand mixer, and a small gift for the friend who bakes every holiday.",
-   "faq": [
-    {
-     "q": "Which mixers does it fit?",
-     "a": "The listing says KitchenAid tilt-head stand mixers, 4.5 and 5 quart."
-    },
-    {
-     "q": "Is it dishwasher safe?",
-     "a": "No, the listing says hand wash only."
-    }
-   ],
-   "video": "img/products/p019-whisk-wiper.mp4",
-   "social_proof": "4.4M views on Instagram"
-  }
- ]
+  ]
 }
