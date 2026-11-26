@@ -688,6 +688,45 @@
       ],
       "video": "img/products/p019-whisk-wiper.mp4",
       "social_proof": "4.4M views on Instagram"
+    },
+    {
+      "id": "p024-oxo-cookie-press",
+      "slug": "oxo-cookie-press",
+      "name": "OXO Good Grips 14-Piece Cookie Press Set",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "Fill the clear tube with dough, press the lever, and shaped cookies come out. No rolling pin, no cookie cutters.",
+      "image": "img/products/p024-oxo-cookie-press.webp",
+      "image_alt": "OXO cookie press pressing green Christmas tree cookies onto a red tray",
+      "link": "https://www.amazon.com/dp/B00ABH0PYI?tag=foundsite-20",
+      "added": "2026-11-26",
+      "headline": "Christmas cookies without a rolling pin",
+      "intro": "Rolling and cutting holiday cookies takes forever. With this cookie press you fill the clear tube with dough, pick a disk, and press the lever over the tray. Each press makes one shaped cookie.",
+      "why_we_like": [
+        "12 stainless steel disks, including tree, wreath, snowflake and heart",
+        "Clear tube shows how much dough is left",
+        "Non-slip base and a large lever",
+        "Storage case keeps the disks together"
+      ],
+      "good_to_know": [
+        "The disks are hand wash only.",
+        "Shapes in this set: daisy, flower, sunflower, fleur-de-lis, butterfly, bear, shell, leaf, heart, snowflake, tree and wreath."
+      ],
+      "who_its_for": "Anyone who bakes trays of holiday cookies, and a gift for the friend who bakes every Christmas.",
+      "faq": [
+        {
+          "q": "What comes in the set?",
+          "a": "The press, 12 stainless steel disks and a storage case for the disks."
+        },
+        {
+          "q": "Are the disks dishwasher safe?",
+          "a": "No, hand wash the disks."
+        }
+      ],
+      "video": "img/products/p024-oxo-cookie-press.mp4",
+      "social_proof": "406K views on TikTok"
     }
   ]
 }
