@@ -727,6 +727,45 @@
       ],
       "video": "img/products/p024-oxo-cookie-press.mp4",
       "social_proof": "406K views on TikTok"
+    },
+    {
+      "id": "p025-dash-multimaker",
+      "slug": "dash-multimaker-mini",
+      "name": "Dash MultiMaker Mini Maker System with Removable Plates",
+      "category": [
+        "kitchen",
+        "gifts"
+      ],
+      "short_note": "One small maker with plates that pop in and out: mini waffles one minute, a fried egg the next.",
+      "image": "img/products/p025-dash-multimaker.webp",
+      "image_alt": "Aqua Dash MultiMaker open with a sunflower-pattern mini waffle",
+      "link": "https://www.amazon.com/dp/B0CNBMZJLB?tag=foundsite-20",
+      "added": "2026-11-26",
+      "headline": "One tiny maker, so many breakfasts",
+      "intro": "Most mini waffle makers only make waffles. The Dash MultiMaker has removable plates, so you can swap the waffle plates for the griddle plates and cook an egg in the same little machine.",
+      "why_we_like": [
+        "Removable plates pop in and out",
+        "Mini waffle and griddle plates in one maker",
+        "Plates are dishwasher safe",
+        "Storage case for the plates and a built-in cord wrap"
+      ],
+      "good_to_know": [
+        "Colors and plate packs vary on the Amazon page; check which plates are included before you buy.",
+        "This is the MultiMaker system; the plain Dash Mini does not have removable plates."
+      ],
+      "who_its_for": "Small kitchens, quick breakfasts, and a Christmas-morning gift for the family.",
+      "faq": [
+        {
+          "q": "Are the plates dishwasher safe?",
+          "a": "Yes, the listing says the plates are dishwasher safe."
+        },
+        {
+          "q": "Do other Dash plates fit?",
+          "a": "Plates made for the MultiMaker system fit it; plates for other Dash makers may not."
+        }
+      ],
+      "video": "img/products/p025-dash-multimaker.mp4",
+      "social_proof": "66K views on TikTok"
     }
   ]
 }
